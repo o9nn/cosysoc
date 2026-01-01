@@ -1,0 +1,326 @@
+[
+  {
+    "partition": "1",
+    "tree_notation": "()",
+    "tree_expanded": "()",
+    "term_count": 1
+  },
+  {
+    "partition": "2",
+    "tree_notation": "(1)",
+    "tree_expanded": "(())",
+    "term_count": 1
+  },
+  {
+    "partition": "1+1",
+    "tree_notation": "()()",
+    "tree_expanded": "()()",
+    "term_count": 1
+  },
+  {
+    "partition": "3",
+    "tree_notation": "(2)",
+    "tree_expanded": "(()())",
+    "term_count": 2
+  },
+  {
+    "partition": "2+1",
+    "tree_notation": "(1)()",
+    "tree_expanded": null,
+    "term_count": 1
+  },
+  {
+    "partition": "1+1+1",
+    "tree_notation": "()()()",
+    "tree_expanded": "()()()",
+    "term_count": 1
+  },
+  {
+    "partition": "4",
+    "tree_notation": "(3)",
+    "tree_expanded": "(()()())",
+    "term_count": 4
+  },
+  {
+    "partition": "3+1",
+    "tree_notation": "(2)()",
+    "tree_expanded": null,
+    "term_count": 2
+  },
+  {
+    "partition": "2+2",
+    "tree_notation": "(1)(1)",
+    "tree_expanded": null,
+    "term_count": 1
+  },
+  {
+    "partition": "2+1+1",
+    "tree_notation": "(1)()()",
+    "tree_expanded": null,
+    "term_count": 1
+  },
+  {
+    "partition": "1+1+1+1",
+    "tree_notation": "()()()()",
+    "tree_expanded": "()()()()",
+    "term_count": 1
+  },
+  {
+    "partition": "5",
+    "tree_notation": "(4)",
+    "tree_expanded": "(()()()())",
+    "term_count": 9
+  },
+  {
+    "partition": "4+1",
+    "tree_notation": "(3)()",
+    "tree_expanded": null,
+    "term_count": 4
+  },
+  {
+    "partition": "3+2",
+    "tree_notation": "(2)(1)",
+    "tree_expanded": null,
+    "term_count": 2
+  },
+  {
+    "partition": "3+1+1",
+    "tree_notation": "(2)()()",
+    "tree_expanded": null,
+    "term_count": 2
+  },
+  {
+    "partition": "2+2+1",
+    "tree_notation": "(1)(1)()",
+    "tree_expanded": null,
+    "term_count": 1
+  },
+  {
+    "partition": "2+1+1+1",
+    "tree_notation": "(1)()()()",
+    "tree_expanded": null,
+    "term_count": 1
+  },
+  {
+    "partition": "1+1+1+1+1",
+    "tree_notation": "()()()()()",
+    "tree_expanded": "()()()()()",
+    "term_count": 1
+  },
+  {
+    "partition": "1",
+    "tree_notation": "()",
+    "tree_expanded": "()",
+    "term_count": null
+  },
+  {
+    "partition": "2",
+    "tree_notation": "(1)",
+    "tree_expanded": "(())",
+    "term_count": null
+  },
+  {
+    "partition": "1+1",
+    "tree_notation": "()()",
+    "tree_expanded": "()()",
+    "term_count": null
+  },
+  {
+    "partition": "3",
+    "tree_notation": "(2)",
+    "tree_expanded": "(()())",
+    "term_count": null
+  },
+  {
+    "partition": "2+1",
+    "tree_notation": "(1)()",
+    "tree_expanded": null,
+    "term_count": null
+  },
+  {
+    "partition": "1+1+1",
+    "tree_notation": "()()()",
+    "tree_expanded": "()()()",
+    "term_count": null
+  },
+  {
+    "partition": "4",
+    "tree_notation": "(3)",
+    "tree_expanded": "(()()())",
+    "term_count": null
+  },
+  {
+    "partition": "3+1",
+    "tree_notation": "(2)()",
+    "tree_expanded": null,
+    "term_count": null
+  },
+  {
+    "partition": "2+2",
+    "tree_notation": "(1)(1)",
+    "tree_expanded": null,
+    "term_count": null
+  },
+  {
+    "partition": "2+1+1",
+    "tree_notation": "(1)()()",
+    "tree_expanded": null,
+    "term_count": null
+  },
+  {
+    "partition": "1+1+1+1",
+    "tree_notation": "()()()()",
+    "tree_expanded": "()()()()",
+    "term_count": null
+  },
+  {
+    "partition": "5",
+    "tree_notation": "(4)",
+    "tree_expanded": "(()()()())",
+    "term_count": 1
+  },
+  {
+    "partition": "4+1",
+    "tree_notation": "(3)()",
+    "tree_expanded": null,
+    "term_count": null
+  },
+  {
+    "partition": "3+2",
+    "tree_notation": "(2)(1)",
+    "tree_expanded": null,
+    "term_count": null
+  },
+  {
+    "partition": "3+1+1",
+    "tree_notation": "(2)()()",
+    "tree_expanded": null,
+    "term_count": null
+  },
+  {
+    "partition": "2+2+1",
+    "tree_notation": "(1)(1)()",
+    "tree_expanded": null,
+    "term_count": 1
+  },
+  {
+    "partition": "2+1+1+1",
+    "tree_notation": "(1)()()()",
+    "tree_expanded": null,
+    "term_count": 1
+  },
+  {
+    "partition": "1+1+1+1+1",
+    "tree_notation": "()()()()()",
+    "tree_expanded": "()()()()()",
+    "term_count": null
+  },
+  {
+    "partition": "1",
+    "tree_notation": "()",
+    "tree_expanded": "()",
+    "term_count": 1
+  },
+  {
+    "partition": "2",
+    "tree_notation": "(1)",
+    "tree_expanded": "(())",
+    "term_count": 1
+  },
+  {
+    "partition": "1+1",
+    "tree_notation": "()()",
+    "tree_expanded": "()()",
+    "term_count": 1
+  },
+  {
+    "partition": "3",
+    "tree_notation": "(2)",
+    "tree_expanded": null,
+    "term_count": 2
+  },
+  {
+    "partition": "2+1",
+    "tree_notation": "(1)()",
+    "tree_expanded": "(()())",
+    "term_count": 1
+  },
+  {
+    "partition": "1+1+1",
+    "tree_notation": "()()()",
+    "tree_expanded": "()()()",
+    "term_count": 1
+  },
+  {
+    "partition": "4",
+    "tree_notation": "(3)",
+    "tree_expanded": "(()()())",
+    "term_count": 4
+  },
+  {
+    "partition": "3+1",
+    "tree_notation": "(2)()",
+    "tree_expanded": null,
+    "term_count": 2
+  },
+  {
+    "partition": "2+2",
+    "tree_notation": "(1)(1)",
+    "tree_expanded": null,
+    "term_count": 1
+  },
+  {
+    "partition": "2+1+1",
+    "tree_notation": "(1)()()",
+    "tree_expanded": null,
+    "term_count": 1
+  },
+  {
+    "partition": "1+1+1+1",
+    "tree_notation": "()()()()",
+    "tree_expanded": "()()()()",
+    "term_count": 1
+  },
+  {
+    "partition": "5",
+    "tree_notation": "(4)",
+    "tree_expanded": null,
+    "term_count": 9
+  },
+  {
+    "partition": "4+1",
+    "tree_notation": "(3)()",
+    "tree_expanded": null,
+    "term_count": 4
+  },
+  {
+    "partition": "3+2",
+    "tree_notation": "(2)(1)",
+    "tree_expanded": null,
+    "term_count": 2
+  },
+  {
+    "partition": "3+1+1",
+    "tree_notation": "(2)()()",
+    "tree_expanded": null,
+    "term_count": 2
+  },
+  {
+    "partition": "2+2+1",
+    "tree_notation": "(1)(1)()",
+    "tree_expanded": null,
+    "term_count": 1
+  },
+  {
+    "partition": "2+1+1+1",
+    "tree_notation": "(1)()()()",
+    "tree_expanded": null,
+    "term_count": 1
+  },
+  {
+    "partition": "1+1+1+1+1",
+    "tree_notation": "()()()()()",
+    "tree_expanded": null,
+    "term_count": 1
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "n": 1,
+    "system": 1,
+    "partitions": 1,
+    "compositions": null,
+    "terms_A000081": null
+  },
+  {
+    "n": 2,
+    "system": 2,
+    "partitions": 1,
+    "compositions": null,
+    "terms_A000081": null
+  },
+  {
+    "n": 3,
+    "system": 4,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": null
+  },
+  {
+    "n": 5,
+    "system": 9,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  },
+  {
+    "n": 7,
+    "system": 20,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  },
+  {
+    "n": 11,
+    "system": 48,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  },
+  {
+    "n": 15,
+    "system": 115,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  },
+  {
+    "n": 22,
+    "system": 286,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  },
+  {
+    "n": 30,
+    "system": 719,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  },
+  {
+    "n": 42,
+    "system": 1842,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  },
+  {
+    "n": 56,
+    "system": 4766,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  },
+  {
+    "n": 77,
+    "system": 12486,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  },
+  {
+    "n": 101,
+    "system": 32973,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  },
+  {
+    "n": 135,
+    "system": 87811,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  },
+  {
+    "n": 176,
+    "system": 235381,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  },
+  {
+    "n": 231,
+    "system": 634847,
+    "partitions": 1,
+    "compositions": 2,
+    "terms_A000081": 4
+  }
+]

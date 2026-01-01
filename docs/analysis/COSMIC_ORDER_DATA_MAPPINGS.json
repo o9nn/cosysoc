@@ -1,0 +1,6031 @@
+{
+  "system_recursive_pattern": {
+    "oeis_id": "A000081",
+    "name": "Number of rooted trees with n nodes",
+    "data": [
+      {
+        "n": 1,
+        "system": 1,
+        "partitions": 1,
+        "compositions": null,
+        "terms_A000081": null
+      },
+      {
+        "n": 2,
+        "system": 2,
+        "partitions": 1,
+        "compositions": null,
+        "terms_A000081": null
+      },
+      {
+        "n": 3,
+        "system": 4,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": null
+      },
+      {
+        "n": 5,
+        "system": 9,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      },
+      {
+        "n": 7,
+        "system": 20,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      },
+      {
+        "n": 11,
+        "system": 48,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      },
+      {
+        "n": 15,
+        "system": 115,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      },
+      {
+        "n": 22,
+        "system": 286,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      },
+      {
+        "n": 30,
+        "system": 719,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      },
+      {
+        "n": 42,
+        "system": 1842,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      },
+      {
+        "n": 56,
+        "system": 4766,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      },
+      {
+        "n": 77,
+        "system": 12486,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      },
+      {
+        "n": 101,
+        "system": 32973,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      },
+      {
+        "n": 135,
+        "system": 87811,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      },
+      {
+        "n": 176,
+        "system": 235381,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      },
+      {
+        "n": 231,
+        "system": 634847,
+        "partitions": 1,
+        "compositions": 2,
+        "terms_A000081": 4
+      }
+    ]
+  },
+  "partition_to_tree_mapping": [
+    {
+      "partition": "1",
+      "tree_notation": "()",
+      "tree_expanded": "()",
+      "term_count": 1
+    },
+    {
+      "partition": "2",
+      "tree_notation": "(1)",
+      "tree_expanded": "(())",
+      "term_count": 1
+    },
+    {
+      "partition": "1+1",
+      "tree_notation": "()()",
+      "tree_expanded": "()()",
+      "term_count": 1
+    },
+    {
+      "partition": "3",
+      "tree_notation": "(2)",
+      "tree_expanded": "(()())",
+      "term_count": 2
+    },
+    {
+      "partition": "2+1",
+      "tree_notation": "(1)()",
+      "tree_expanded": null,
+      "term_count": 1
+    },
+    {
+      "partition": "1+1+1",
+      "tree_notation": "()()()",
+      "tree_expanded": "()()()",
+      "term_count": 1
+    },
+    {
+      "partition": "4",
+      "tree_notation": "(3)",
+      "tree_expanded": "(()()())",
+      "term_count": 4
+    },
+    {
+      "partition": "3+1",
+      "tree_notation": "(2)()",
+      "tree_expanded": null,
+      "term_count": 2
+    },
+    {
+      "partition": "2+2",
+      "tree_notation": "(1)(1)",
+      "tree_expanded": null,
+      "term_count": 1
+    },
+    {
+      "partition": "2+1+1",
+      "tree_notation": "(1)()()",
+      "tree_expanded": null,
+      "term_count": 1
+    },
+    {
+      "partition": "1+1+1+1",
+      "tree_notation": "()()()()",
+      "tree_expanded": "()()()()",
+      "term_count": 1
+    },
+    {
+      "partition": "5",
+      "tree_notation": "(4)",
+      "tree_expanded": "(()()()())",
+      "term_count": 9
+    },
+    {
+      "partition": "4+1",
+      "tree_notation": "(3)()",
+      "tree_expanded": null,
+      "term_count": 4
+    },
+    {
+      "partition": "3+2",
+      "tree_notation": "(2)(1)",
+      "tree_expanded": null,
+      "term_count": 2
+    },
+    {
+      "partition": "3+1+1",
+      "tree_notation": "(2)()()",
+      "tree_expanded": null,
+      "term_count": 2
+    },
+    {
+      "partition": "2+2+1",
+      "tree_notation": "(1)(1)()",
+      "tree_expanded": null,
+      "term_count": 1
+    },
+    {
+      "partition": "2+1+1+1",
+      "tree_notation": "(1)()()()",
+      "tree_expanded": null,
+      "term_count": 1
+    },
+    {
+      "partition": "1+1+1+1+1",
+      "tree_notation": "()()()()()",
+      "tree_expanded": "()()()()()",
+      "term_count": 1
+    },
+    {
+      "partition": "1",
+      "tree_notation": "()",
+      "tree_expanded": "()",
+      "term_count": null
+    },
+    {
+      "partition": "2",
+      "tree_notation": "(1)",
+      "tree_expanded": "(())",
+      "term_count": null
+    },
+    {
+      "partition": "1+1",
+      "tree_notation": "()()",
+      "tree_expanded": "()()",
+      "term_count": null
+    },
+    {
+      "partition": "3",
+      "tree_notation": "(2)",
+      "tree_expanded": "(()())",
+      "term_count": null
+    },
+    {
+      "partition": "2+1",
+      "tree_notation": "(1)()",
+      "tree_expanded": null,
+      "term_count": null
+    },
+    {
+      "partition": "1+1+1",
+      "tree_notation": "()()()",
+      "tree_expanded": "()()()",
+      "term_count": null
+    },
+    {
+      "partition": "4",
+      "tree_notation": "(3)",
+      "tree_expanded": "(()()())",
+      "term_count": null
+    },
+    {
+      "partition": "3+1",
+      "tree_notation": "(2)()",
+      "tree_expanded": null,
+      "term_count": null
+    },
+    {
+      "partition": "2+2",
+      "tree_notation": "(1)(1)",
+      "tree_expanded": null,
+      "term_count": null
+    },
+    {
+      "partition": "2+1+1",
+      "tree_notation": "(1)()()",
+      "tree_expanded": null,
+      "term_count": null
+    },
+    {
+      "partition": "1+1+1+1",
+      "tree_notation": "()()()()",
+      "tree_expanded": "()()()()",
+      "term_count": null
+    },
+    {
+      "partition": "5",
+      "tree_notation": "(4)",
+      "tree_expanded": "(()()()())",
+      "term_count": 1
+    },
+    {
+      "partition": "4+1",
+      "tree_notation": "(3)()",
+      "tree_expanded": null,
+      "term_count": null
+    },
+    {
+      "partition": "3+2",
+      "tree_notation": "(2)(1)",
+      "tree_expanded": null,
+      "term_count": null
+    },
+    {
+      "partition": "3+1+1",
+      "tree_notation": "(2)()()",
+      "tree_expanded": null,
+      "term_count": null
+    },
+    {
+      "partition": "2+2+1",
+      "tree_notation": "(1)(1)()",
+      "tree_expanded": null,
+      "term_count": 1
+    },
+    {
+      "partition": "2+1+1+1",
+      "tree_notation": "(1)()()()",
+      "tree_expanded": null,
+      "term_count": 1
+    },
+    {
+      "partition": "1+1+1+1+1",
+      "tree_notation": "()()()()()",
+      "tree_expanded": "()()()()()",
+      "term_count": null
+    },
+    {
+      "partition": "1",
+      "tree_notation": "()",
+      "tree_expanded": "()",
+      "term_count": 1
+    },
+    {
+      "partition": "2",
+      "tree_notation": "(1)",
+      "tree_expanded": "(())",
+      "term_count": 1
+    },
+    {
+      "partition": "1+1",
+      "tree_notation": "()()",
+      "tree_expanded": "()()",
+      "term_count": 1
+    },
+    {
+      "partition": "3",
+      "tree_notation": "(2)",
+      "tree_expanded": null,
+      "term_count": 2
+    },
+    {
+      "partition": "2+1",
+      "tree_notation": "(1)()",
+      "tree_expanded": "(()())",
+      "term_count": 1
+    },
+    {
+      "partition": "1+1+1",
+      "tree_notation": "()()()",
+      "tree_expanded": "()()()",
+      "term_count": 1
+    },
+    {
+      "partition": "4",
+      "tree_notation": "(3)",
+      "tree_expanded": "(()()())",
+      "term_count": 4
+    },
+    {
+      "partition": "3+1",
+      "tree_notation": "(2)()",
+      "tree_expanded": null,
+      "term_count": 2
+    },
+    {
+      "partition": "2+2",
+      "tree_notation": "(1)(1)",
+      "tree_expanded": null,
+      "term_count": 1
+    },
+    {
+      "partition": "2+1+1",
+      "tree_notation": "(1)()()",
+      "tree_expanded": null,
+      "term_count": 1
+    },
+    {
+      "partition": "1+1+1+1",
+      "tree_notation": "()()()()",
+      "tree_expanded": "()()()()",
+      "term_count": 1
+    },
+    {
+      "partition": "5",
+      "tree_notation": "(4)",
+      "tree_expanded": null,
+      "term_count": 9
+    },
+    {
+      "partition": "4+1",
+      "tree_notation": "(3)()",
+      "tree_expanded": null,
+      "term_count": 4
+    },
+    {
+      "partition": "3+2",
+      "tree_notation": "(2)(1)",
+      "tree_expanded": null,
+      "term_count": 2
+    },
+    {
+      "partition": "3+1+1",
+      "tree_notation": "(2)()()",
+      "tree_expanded": null,
+      "term_count": 2
+    },
+    {
+      "partition": "2+2+1",
+      "tree_notation": "(1)(1)()",
+      "tree_expanded": null,
+      "term_count": 1
+    },
+    {
+      "partition": "2+1+1+1",
+      "tree_notation": "(1)()()()",
+      "tree_expanded": null,
+      "term_count": 1
+    },
+    {
+      "partition": "1+1+1+1+1",
+      "tree_notation": "()()()()()",
+      "tree_expanded": null,
+      "term_count": 1
+    }
+  ],
+  "terms_in_partitions": [
+    {
+      "n": 1,
+      "partition": "1",
+      "partition_type": "{1}",
+      "term_value": 1.0
+    },
+    {
+      "n": 2,
+      "partition": "1+1",
+      "partition_type": "{2}",
+      "term_value": 1.0
+    },
+    {
+      "n": 2,
+      "partition": "2",
+      "partition_type": "{1}",
+      "term_value": 1.0
+    },
+    {
+      "n": 3,
+      "partition": "1+1+1",
+      "partition_type": "{3}",
+      "term_value": 1.0
+    },
+    {
+      "n": 3,
+      "partition": "2+1",
+      "partition_type": "{1,1}",
+      "term_value": 1.0
+    },
+    {
+      "n": 3,
+      "partition": "3",
+      "partition_type": "{1}",
+      "term_value": 2.0
+    },
+    {
+      "n": 4,
+      "partition": "1+1+1+1",
+      "partition_type": "{4}",
+      "term_value": 1.0
+    },
+    {
+      "n": 4,
+      "partition": "2+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 1.0
+    },
+    {
+      "n": 4,
+      "partition": "3+1",
+      "partition_type": "{1,1}",
+      "term_value": 2.0
+    },
+    {
+      "n": 4,
+      "partition": "2+2",
+      "partition_type": "{2}",
+      "term_value": 1.0
+    },
+    {
+      "n": 4,
+      "partition": "4",
+      "partition_type": "{1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 5,
+      "partition": "1+1+1+1+1",
+      "partition_type": "{5}",
+      "term_value": 1.0
+    },
+    {
+      "n": 5,
+      "partition": "2+1+1+1",
+      "partition_type": "{1,3}",
+      "term_value": 1.0
+    },
+    {
+      "n": 5,
+      "partition": "3+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 2.0
+    },
+    {
+      "n": 5,
+      "partition": "2+2+1",
+      "partition_type": "{2,1}",
+      "term_value": 1.0
+    },
+    {
+      "n": 5,
+      "partition": "4+1",
+      "partition_type": "{1,1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 5,
+      "partition": "3+2",
+      "partition_type": "{1,1}",
+      "term_value": 2.0
+    },
+    {
+      "n": 5,
+      "partition": "5",
+      "partition_type": "{1}",
+      "term_value": 9.0
+    },
+    {
+      "n": 6,
+      "partition": "1+1+1+1+1+1",
+      "partition_type": "{6}",
+      "term_value": 1.0
+    },
+    {
+      "n": 6,
+      "partition": "2+1+1+1+1",
+      "partition_type": "{1,4}",
+      "term_value": 1.0
+    },
+    {
+      "n": 6,
+      "partition": "3+1+1+1",
+      "partition_type": "{1,3}",
+      "term_value": 2.0
+    },
+    {
+      "n": 6,
+      "partition": "2+2+1+1",
+      "partition_type": "{2,2}",
+      "term_value": 1.0
+    },
+    {
+      "n": 6,
+      "partition": "4+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 4.0
+    },
+    {
+      "n": 6,
+      "partition": "3+2+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 2.0
+    },
+    {
+      "n": 6,
+      "partition": "5+1",
+      "partition_type": "{1,1}",
+      "term_value": 9.0
+    },
+    {
+      "n": 6,
+      "partition": "2+2+2",
+      "partition_type": "{3}",
+      "term_value": 1.0
+    },
+    {
+      "n": 6,
+      "partition": "4+2",
+      "partition_type": "{1,1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 6,
+      "partition": "3+3",
+      "partition_type": "{2}",
+      "term_value": 3.0
+    },
+    {
+      "n": 6,
+      "partition": "6",
+      "partition_type": "{1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 7,
+      "partition": "1+1+1+1+1+1+1",
+      "partition_type": "{7}",
+      "term_value": 1.0
+    },
+    {
+      "n": 7,
+      "partition": "2+1+1+1+1+1",
+      "partition_type": "{1,5}",
+      "term_value": 1.0
+    },
+    {
+      "n": 7,
+      "partition": "3+1+1+1+1",
+      "partition_type": "{1,4}",
+      "term_value": 2.0
+    },
+    {
+      "n": 7,
+      "partition": "2+2+1+1+1",
+      "partition_type": "{2,3}",
+      "term_value": 1.0
+    },
+    {
+      "n": 7,
+      "partition": "4+1+1+1",
+      "partition_type": "{1,3}",
+      "term_value": 4.0
+    },
+    {
+      "n": 7,
+      "partition": "3+2+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 2.0
+    },
+    {
+      "n": 7,
+      "partition": "5+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 9.0
+    },
+    {
+      "n": 7,
+      "partition": "2+2+2+1",
+      "partition_type": "{3,1}",
+      "term_value": 1.0
+    },
+    {
+      "n": 7,
+      "partition": "4+2+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 7,
+      "partition": "3+3+1",
+      "partition_type": "{2,1}",
+      "term_value": 3.0
+    },
+    {
+      "n": 7,
+      "partition": "6+1",
+      "partition_type": "{1,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 7,
+      "partition": "3+2+2",
+      "partition_type": "{1,2}",
+      "term_value": 2.0
+    },
+    {
+      "n": 7,
+      "partition": "5+2",
+      "partition_type": "{1,1}",
+      "term_value": 9.0
+    },
+    {
+      "n": 7,
+      "partition": "4+3",
+      "partition_type": "{1,1}",
+      "term_value": 8.0
+    },
+    {
+      "n": 7,
+      "partition": "7",
+      "partition_type": "{1}",
+      "term_value": 48.0
+    },
+    {
+      "n": 8,
+      "partition": "1+1+1+1+1+1+1+1",
+      "partition_type": "{8}",
+      "term_value": 1.0
+    },
+    {
+      "n": 8,
+      "partition": "2+1+1+1+1+1+1",
+      "partition_type": "{1,6}",
+      "term_value": 1.0
+    },
+    {
+      "n": 8,
+      "partition": "3+1+1+1+1+1",
+      "partition_type": "{1,5}",
+      "term_value": 2.0
+    },
+    {
+      "n": 8,
+      "partition": "2+2+1+1+1+1",
+      "partition_type": "{2,4}",
+      "term_value": 1.0
+    },
+    {
+      "n": 8,
+      "partition": "4+1+1+1+1",
+      "partition_type": "{1,4}",
+      "term_value": 4.0
+    },
+    {
+      "n": 8,
+      "partition": "3+2+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 2.0
+    },
+    {
+      "n": 8,
+      "partition": "5+1+1+1",
+      "partition_type": "{1,3}",
+      "term_value": 9.0
+    },
+    {
+      "n": 8,
+      "partition": "2+2+2+1+1",
+      "partition_type": "{3,2}",
+      "term_value": 1.0
+    },
+    {
+      "n": 8,
+      "partition": "4+2+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 4.0
+    },
+    {
+      "n": 8,
+      "partition": "3+3+1+1",
+      "partition_type": "{2,2}",
+      "term_value": 3.0
+    },
+    {
+      "n": 8,
+      "partition": "6+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 20.0
+    },
+    {
+      "n": 8,
+      "partition": "3+2+2+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 2.0
+    },
+    {
+      "n": 8,
+      "partition": "5+2+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 9.0
+    },
+    {
+      "n": 8,
+      "partition": "4+3+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 8.0
+    },
+    {
+      "n": 8,
+      "partition": "7+1",
+      "partition_type": "{1,1}",
+      "term_value": 48.0
+    },
+    {
+      "n": 8,
+      "partition": "2+2+2+2",
+      "partition_type": "{4}",
+      "term_value": 1.0
+    },
+    {
+      "n": 8,
+      "partition": "4+2+2",
+      "partition_type": "{1,2}",
+      "term_value": 4.0
+    },
+    {
+      "n": 8,
+      "partition": "3+3+2",
+      "partition_type": "{2,1}",
+      "term_value": 3.0
+    },
+    {
+      "n": 8,
+      "partition": "6+2",
+      "partition_type": "{1,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 8,
+      "partition": "5+3",
+      "partition_type": "{1,1}",
+      "term_value": 18.0
+    },
+    {
+      "n": 8,
+      "partition": "4+4",
+      "partition_type": "{2}",
+      "term_value": 10.0
+    },
+    {
+      "n": 8,
+      "partition": "8",
+      "partition_type": "{1}",
+      "term_value": 115.0
+    },
+    {
+      "n": 9,
+      "partition": "1+1+1+1+1+1+1+1+1",
+      "partition_type": "{9}",
+      "term_value": 1.0
+    },
+    {
+      "n": 9,
+      "partition": "2+1+1+1+1+1+1+1",
+      "partition_type": "{1,7}",
+      "term_value": 1.0
+    },
+    {
+      "n": 9,
+      "partition": "3+1+1+1+1+1+1",
+      "partition_type": "{1,6}",
+      "term_value": 2.0
+    },
+    {
+      "n": 9,
+      "partition": "2+2+1+1+1+1+1",
+      "partition_type": "{2,5}",
+      "term_value": 1.0
+    },
+    {
+      "n": 9,
+      "partition": "4+1+1+1+1+1",
+      "partition_type": "{1,5}",
+      "term_value": 4.0
+    },
+    {
+      "n": 9,
+      "partition": "3+2+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 2.0
+    },
+    {
+      "n": 9,
+      "partition": "5+1+1+1+1",
+      "partition_type": "{1,4}",
+      "term_value": 9.0
+    },
+    {
+      "n": 9,
+      "partition": "2+2+2+1+1+1",
+      "partition_type": "{3,3}",
+      "term_value": 1.0
+    },
+    {
+      "n": 9,
+      "partition": "4+2+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 4.0
+    },
+    {
+      "n": 9,
+      "partition": "3+3+1+1+1",
+      "partition_type": "{2,3}",
+      "term_value": 3.0
+    },
+    {
+      "n": 9,
+      "partition": "6+1+1+1",
+      "partition_type": "{1,3}",
+      "term_value": 20.0
+    },
+    {
+      "n": 9,
+      "partition": "3+2+2+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 2.0
+    },
+    {
+      "n": 9,
+      "partition": "5+2+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 9.0
+    },
+    {
+      "n": 9,
+      "partition": "4+3+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 8.0
+    },
+    {
+      "n": 9,
+      "partition": "7+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 48.0
+    },
+    {
+      "n": 9,
+      "partition": "2+2+2+2+1",
+      "partition_type": "{4,1}",
+      "term_value": 1.0
+    },
+    {
+      "n": 9,
+      "partition": "4+2+2+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 9,
+      "partition": "3+3+2+1",
+      "partition_type": "{2,1,1}",
+      "term_value": 3.0
+    },
+    {
+      "n": 9,
+      "partition": "6+2+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 9,
+      "partition": "5+3+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 18.0
+    },
+    {
+      "n": 9,
+      "partition": "4+4+1",
+      "partition_type": "{2,1}",
+      "term_value": 10.0
+    },
+    {
+      "n": 9,
+      "partition": "8+1",
+      "partition_type": "{1,1}",
+      "term_value": 115.0
+    },
+    {
+      "n": 9,
+      "partition": "3+2+2+2",
+      "partition_type": "{1,3}",
+      "term_value": 2.0
+    },
+    {
+      "n": 9,
+      "partition": "5+2+2",
+      "partition_type": "{1,2}",
+      "term_value": 9.0
+    },
+    {
+      "n": 9,
+      "partition": "4+3+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 8.0
+    },
+    {
+      "n": 9,
+      "partition": "7+2",
+      "partition_type": "{1,1}",
+      "term_value": 48.0
+    },
+    {
+      "n": 9,
+      "partition": "3+3+3",
+      "partition_type": "{3}",
+      "term_value": 4.0
+    },
+    {
+      "n": 9,
+      "partition": "6+3",
+      "partition_type": "{1,1}",
+      "term_value": 40.0
+    },
+    {
+      "n": 9,
+      "partition": "5+4",
+      "partition_type": "{1,1}",
+      "term_value": 36.0
+    },
+    {
+      "n": 9,
+      "partition": "9",
+      "partition_type": "{1}",
+      "term_value": 286.0
+    },
+    {
+      "n": 10,
+      "partition": "1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{10}",
+      "term_value": 1.0
+    },
+    {
+      "n": 10,
+      "partition": "2+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,8}",
+      "term_value": 1.0
+    },
+    {
+      "n": 10,
+      "partition": "3+1+1+1+1+1+1+1",
+      "partition_type": "{1,7}",
+      "term_value": 2.0
+    },
+    {
+      "n": 10,
+      "partition": "2+2+1+1+1+1+1+1",
+      "partition_type": "{2,6}",
+      "term_value": 1.0
+    },
+    {
+      "n": 10,
+      "partition": "4+1+1+1+1+1+1",
+      "partition_type": "{1,6}",
+      "term_value": 4.0
+    },
+    {
+      "n": 10,
+      "partition": "3+2+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 2.0
+    },
+    {
+      "n": 10,
+      "partition": "5+1+1+1+1+1",
+      "partition_type": "{1,5}",
+      "term_value": 9.0
+    },
+    {
+      "n": 10,
+      "partition": "2+2+2+1+1+1+1",
+      "partition_type": "{3,4}",
+      "term_value": 1.0
+    },
+    {
+      "n": 10,
+      "partition": "4+2+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 4.0
+    },
+    {
+      "n": 10,
+      "partition": "3+3+1+1+1+1",
+      "partition_type": "{2,4}",
+      "term_value": 3.0
+    },
+    {
+      "n": 10,
+      "partition": "6+1+1+1+1",
+      "partition_type": "{1,4}",
+      "term_value": 20.0
+    },
+    {
+      "n": 10,
+      "partition": "3+2+2+1+1+1",
+      "partition_type": "{1,2,3}",
+      "term_value": 2.0
+    },
+    {
+      "n": 10,
+      "partition": "5+2+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 9.0
+    },
+    {
+      "n": 10,
+      "partition": "4+3+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 8.0
+    },
+    {
+      "n": 10,
+      "partition": "7+1+1+1",
+      "partition_type": "{1,3}",
+      "term_value": 48.0
+    },
+    {
+      "n": 10,
+      "partition": "2+2+2+2+1+1",
+      "partition_type": "{4,2}",
+      "term_value": 1.0
+    },
+    {
+      "n": 10,
+      "partition": "4+2+2+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 4.0
+    },
+    {
+      "n": 10,
+      "partition": "3+3+2+1+1",
+      "partition_type": "{2,1,2}",
+      "term_value": 3.0
+    },
+    {
+      "n": 10,
+      "partition": "6+2+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 20.0
+    },
+    {
+      "n": 10,
+      "partition": "5+3+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 18.0
+    },
+    {
+      "n": 10,
+      "partition": "4+4+1+1",
+      "partition_type": "{2,2}",
+      "term_value": 10.0
+    },
+    {
+      "n": 10,
+      "partition": "8+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 115.0
+    },
+    {
+      "n": 10,
+      "partition": "3+2+2+2+1",
+      "partition_type": "{1,3,1}",
+      "term_value": 2.0
+    },
+    {
+      "n": 10,
+      "partition": "5+2+2+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 9.0
+    },
+    {
+      "n": 10,
+      "partition": "4+3+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 8.0
+    },
+    {
+      "n": 10,
+      "partition": "7+2+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 48.0
+    },
+    {
+      "n": 10,
+      "partition": "3+3+3+1",
+      "partition_type": "{3,1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 10,
+      "partition": "6+3+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 40.0
+    },
+    {
+      "n": 10,
+      "partition": "5+4+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 36.0
+    },
+    {
+      "n": 10,
+      "partition": "9+1",
+      "partition_type": "{1,1}",
+      "term_value": 286.0
+    },
+    {
+      "n": 10,
+      "partition": "2+2+2+2+2",
+      "partition_type": "{5}",
+      "term_value": 1.0
+    },
+    {
+      "n": 10,
+      "partition": "4+2+2+2",
+      "partition_type": "{1,3}",
+      "term_value": 4.0
+    },
+    {
+      "n": 10,
+      "partition": "3+3+2+2",
+      "partition_type": "{2,2}",
+      "term_value": 3.0
+    },
+    {
+      "n": 10,
+      "partition": "6+2+2",
+      "partition_type": "{1,2}",
+      "term_value": 20.0
+    },
+    {
+      "n": 10,
+      "partition": "5+3+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 18.0
+    },
+    {
+      "n": 10,
+      "partition": "4+4+2",
+      "partition_type": "{2,1}",
+      "term_value": 10.0
+    },
+    {
+      "n": 10,
+      "partition": "8+2",
+      "partition_type": "{1,1}",
+      "term_value": 115.0
+    },
+    {
+      "n": 10,
+      "partition": "4+3+3",
+      "partition_type": "{1,2}",
+      "term_value": 12.0
+    },
+    {
+      "n": 10,
+      "partition": "7+3",
+      "partition_type": "{1,1}",
+      "term_value": 96.0
+    },
+    {
+      "n": 10,
+      "partition": "6+4",
+      "partition_type": "{1,1}",
+      "term_value": 80.0
+    },
+    {
+      "n": 10,
+      "partition": "5+5",
+      "partition_type": "{2}",
+      "term_value": 45.0
+    },
+    {
+      "n": 10,
+      "partition": "10",
+      "partition_type": "{1}",
+      "term_value": 719.0
+    },
+    {
+      "n": 11,
+      "partition": "1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{11}",
+      "term_value": 1.0
+    },
+    {
+      "n": 11,
+      "partition": "2+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,9}",
+      "term_value": 1.0
+    },
+    {
+      "n": 11,
+      "partition": "3+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,8}",
+      "term_value": 2.0
+    },
+    {
+      "n": 11,
+      "partition": "2+2+1+1+1+1+1+1+1",
+      "partition_type": "{2,7}",
+      "term_value": 1.0
+    },
+    {
+      "n": 11,
+      "partition": "4+1+1+1+1+1+1+1",
+      "partition_type": "{1,7}",
+      "term_value": 4.0
+    },
+    {
+      "n": 11,
+      "partition": "3+2+1+1+1+1+1+1",
+      "partition_type": "{1,1,6}",
+      "term_value": 2.0
+    },
+    {
+      "n": 11,
+      "partition": "5+1+1+1+1+1+1",
+      "partition_type": "{1,6}",
+      "term_value": 9.0
+    },
+    {
+      "n": 11,
+      "partition": "2+2+2+1+1+1+1+1",
+      "partition_type": "{3,5}",
+      "term_value": 1.0
+    },
+    {
+      "n": 11,
+      "partition": "4+2+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 4.0
+    },
+    {
+      "n": 11,
+      "partition": "3+3+1+1+1+1+1",
+      "partition_type": "{2,5}",
+      "term_value": 3.0
+    },
+    {
+      "n": 11,
+      "partition": "6+1+1+1+1+1",
+      "partition_type": "{1,5}",
+      "term_value": 20.0
+    },
+    {
+      "n": 11,
+      "partition": "3+2+2+1+1+1+1",
+      "partition_type": "{1,2,4}",
+      "term_value": 2.0
+    },
+    {
+      "n": 11,
+      "partition": "5+2+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 9.0
+    },
+    {
+      "n": 11,
+      "partition": "4+3+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 8.0
+    },
+    {
+      "n": 11,
+      "partition": "7+1+1+1+1",
+      "partition_type": "{1,4}",
+      "term_value": 48.0
+    },
+    {
+      "n": 11,
+      "partition": "2+2+2+2+1+1+1",
+      "partition_type": "{4,3}",
+      "term_value": 1.0
+    },
+    {
+      "n": 11,
+      "partition": "4+2+2+1+1+1",
+      "partition_type": "{1,2,3}",
+      "term_value": 4.0
+    },
+    {
+      "n": 11,
+      "partition": "3+3+2+1+1+1",
+      "partition_type": "{2,1,3}",
+      "term_value": 3.0
+    },
+    {
+      "n": 11,
+      "partition": "6+2+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 20.0
+    },
+    {
+      "n": 11,
+      "partition": "5+3+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 18.0
+    },
+    {
+      "n": 11,
+      "partition": "4+4+1+1+1",
+      "partition_type": "{2,3}",
+      "term_value": 10.0
+    },
+    {
+      "n": 11,
+      "partition": "8+1+1+1",
+      "partition_type": "{1,3}",
+      "term_value": 115.0
+    },
+    {
+      "n": 11,
+      "partition": "3+2+2+2+1+1",
+      "partition_type": "{1,3,2}",
+      "term_value": 2.0
+    },
+    {
+      "n": 11,
+      "partition": "5+2+2+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 9.0
+    },
+    {
+      "n": 11,
+      "partition": "4+3+2+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 8.0
+    },
+    {
+      "n": 11,
+      "partition": "7+2+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 48.0
+    },
+    {
+      "n": 11,
+      "partition": "3+3+3+1+1",
+      "partition_type": "{3,2}",
+      "term_value": 4.0
+    },
+    {
+      "n": 11,
+      "partition": "6+3+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 40.0
+    },
+    {
+      "n": 11,
+      "partition": "5+4+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 36.0
+    },
+    {
+      "n": 11,
+      "partition": "9+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 286.0
+    },
+    {
+      "n": 11,
+      "partition": "2+2+2+2+2+1",
+      "partition_type": "{5,1}",
+      "term_value": 1.0
+    },
+    {
+      "n": 11,
+      "partition": "4+2+2+2+1",
+      "partition_type": "{1,3,1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 11,
+      "partition": "3+3+2+2+1",
+      "partition_type": "{2,2,1}",
+      "term_value": 3.0
+    },
+    {
+      "n": 11,
+      "partition": "6+2+2+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 11,
+      "partition": "5+3+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 18.0
+    },
+    {
+      "n": 11,
+      "partition": "4+4+2+1",
+      "partition_type": "{2,1,1}",
+      "term_value": 10.0
+    },
+    {
+      "n": 11,
+      "partition": "8+2+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 115.0
+    },
+    {
+      "n": 11,
+      "partition": "4+3+3+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 12.0
+    },
+    {
+      "n": 11,
+      "partition": "7+3+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 96.0
+    },
+    {
+      "n": 11,
+      "partition": "6+4+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 80.0
+    },
+    {
+      "n": 11,
+      "partition": "5+5+1",
+      "partition_type": "{2,1}",
+      "term_value": 45.0
+    },
+    {
+      "n": 11,
+      "partition": "10+1",
+      "partition_type": "{1,1}",
+      "term_value": 719.0
+    },
+    {
+      "n": 11,
+      "partition": "3+2+2+2+2",
+      "partition_type": "{1,4}",
+      "term_value": 2.0
+    },
+    {
+      "n": 11,
+      "partition": "5+2+2+2",
+      "partition_type": "{1,3}",
+      "term_value": 9.0
+    },
+    {
+      "n": 11,
+      "partition": "4+3+2+2",
+      "partition_type": "{1,1,2}",
+      "term_value": 8.0
+    },
+    {
+      "n": 11,
+      "partition": "7+2+2",
+      "partition_type": "{1,2}",
+      "term_value": 48.0
+    },
+    {
+      "n": 11,
+      "partition": "3+3+3+2",
+      "partition_type": "{3,1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 11,
+      "partition": "6+3+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 40.0
+    },
+    {
+      "n": 11,
+      "partition": "5+4+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 36.0
+    },
+    {
+      "n": 11,
+      "partition": "9+2",
+      "partition_type": "{1,1}",
+      "term_value": 286.0
+    },
+    {
+      "n": 11,
+      "partition": "5+3+3",
+      "partition_type": "{1,2}",
+      "term_value": 27.0
+    },
+    {
+      "n": 11,
+      "partition": "4+4+3",
+      "partition_type": "{2,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 11,
+      "partition": "8+3",
+      "partition_type": "{1,1}",
+      "term_value": 230.0
+    },
+    {
+      "n": 11,
+      "partition": "7+4",
+      "partition_type": "{1,1}",
+      "term_value": 192.0
+    },
+    {
+      "n": 11,
+      "partition": "6+5",
+      "partition_type": "{1,1}",
+      "term_value": 180.0
+    },
+    {
+      "n": 11,
+      "partition": "11",
+      "partition_type": "{1}",
+      "term_value": 1842.0
+    },
+    {
+      "n": 12,
+      "partition": "1+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{12}",
+      "term_value": 1.0
+    },
+    {
+      "n": 12,
+      "partition": "2+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,10}",
+      "term_value": 1.0
+    },
+    {
+      "n": 12,
+      "partition": "3+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,9}",
+      "term_value": 2.0
+    },
+    {
+      "n": 12,
+      "partition": "2+2+1+1+1+1+1+1+1+1",
+      "partition_type": "{2,8}",
+      "term_value": 1.0
+    },
+    {
+      "n": 12,
+      "partition": "4+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,8}",
+      "term_value": 4.0
+    },
+    {
+      "n": 12,
+      "partition": "3+2+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,7}",
+      "term_value": 2.0
+    },
+    {
+      "n": 12,
+      "partition": "5+1+1+1+1+1+1+1",
+      "partition_type": "{1,7}",
+      "term_value": 9.0
+    },
+    {
+      "n": 12,
+      "partition": "2+2+2+1+1+1+1+1+1",
+      "partition_type": "{3,6}",
+      "term_value": 1.0
+    },
+    {
+      "n": 12,
+      "partition": "4+2+1+1+1+1+1+1",
+      "partition_type": "{1,1,6}",
+      "term_value": 4.0
+    },
+    {
+      "n": 12,
+      "partition": "3+3+1+1+1+1+1+1",
+      "partition_type": "{2,6}",
+      "term_value": 3.0
+    },
+    {
+      "n": 12,
+      "partition": "6+1+1+1+1+1+1",
+      "partition_type": "{1,6}",
+      "term_value": 20.0
+    },
+    {
+      "n": 12,
+      "partition": "3+2+2+1+1+1+1+1",
+      "partition_type": "{1,2,5}",
+      "term_value": 2.0
+    },
+    {
+      "n": 12,
+      "partition": "5+2+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 9.0
+    },
+    {
+      "n": 12,
+      "partition": "4+3+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 8.0
+    },
+    {
+      "n": 12,
+      "partition": "7+1+1+1+1+1",
+      "partition_type": "{1,5}",
+      "term_value": 48.0
+    },
+    {
+      "n": 12,
+      "partition": "2+2+2+2+1+1+1+1",
+      "partition_type": "{4,4}",
+      "term_value": 1.0
+    },
+    {
+      "n": 12,
+      "partition": "4+2+2+1+1+1+1",
+      "partition_type": "{1,2,4}",
+      "term_value": 4.0
+    },
+    {
+      "n": 12,
+      "partition": "3+3+2+1+1+1+1",
+      "partition_type": "{2,1,4}",
+      "term_value": 3.0
+    },
+    {
+      "n": 12,
+      "partition": "6+2+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 20.0
+    },
+    {
+      "n": 12,
+      "partition": "5+3+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 18.0
+    },
+    {
+      "n": 12,
+      "partition": "4+4+1+1+1+1",
+      "partition_type": "{2,4}",
+      "term_value": 10.0
+    },
+    {
+      "n": 12,
+      "partition": "8+1+1+1+1",
+      "partition_type": "{1,4}",
+      "term_value": 115.0
+    },
+    {
+      "n": 12,
+      "partition": "3+2+2+2+1+1+1",
+      "partition_type": "{1,3,3}",
+      "term_value": 2.0
+    },
+    {
+      "n": 12,
+      "partition": "5+2+2+1+1+1",
+      "partition_type": "{1,2,3}",
+      "term_value": 9.0
+    },
+    {
+      "n": 12,
+      "partition": "4+3+2+1+1+1",
+      "partition_type": "{1,1,1,3}",
+      "term_value": 8.0
+    },
+    {
+      "n": 12,
+      "partition": "7+2+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 48.0
+    },
+    {
+      "n": 12,
+      "partition": "3+3+3+1+1+1",
+      "partition_type": "{3,3}",
+      "term_value": 4.0
+    },
+    {
+      "n": 12,
+      "partition": "6+3+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 40.0
+    },
+    {
+      "n": 12,
+      "partition": "5+4+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 36.0
+    },
+    {
+      "n": 12,
+      "partition": "9+1+1+1",
+      "partition_type": "{1,3}",
+      "term_value": 286.0
+    },
+    {
+      "n": 12,
+      "partition": "2+2+2+2+2+1+1",
+      "partition_type": "{5,2}",
+      "term_value": 1.0
+    },
+    {
+      "n": 12,
+      "partition": "4+2+2+2+1+1",
+      "partition_type": "{1,3,2}",
+      "term_value": 4.0
+    },
+    {
+      "n": 12,
+      "partition": "3+3+2+2+1+1",
+      "partition_type": "{2,2,2}",
+      "term_value": 3.0
+    },
+    {
+      "n": 12,
+      "partition": "6+2+2+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 20.0
+    },
+    {
+      "n": 12,
+      "partition": "5+3+2+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 18.0
+    },
+    {
+      "n": 12,
+      "partition": "4+4+2+1+1",
+      "partition_type": "{2,1,2}",
+      "term_value": 10.0
+    },
+    {
+      "n": 12,
+      "partition": "8+2+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 115.0
+    },
+    {
+      "n": 12,
+      "partition": "4+3+3+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 12.0
+    },
+    {
+      "n": 12,
+      "partition": "7+3+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 96.0
+    },
+    {
+      "n": 12,
+      "partition": "6+4+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 80.0
+    },
+    {
+      "n": 12,
+      "partition": "5+5+1+1",
+      "partition_type": "{2,2}",
+      "term_value": 45.0
+    },
+    {
+      "n": 12,
+      "partition": "10+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 719.0
+    },
+    {
+      "n": 12,
+      "partition": "3+2+2+2+2+1",
+      "partition_type": "{1,4,1}",
+      "term_value": 2.0
+    },
+    {
+      "n": 12,
+      "partition": "5+2+2+2+1",
+      "partition_type": "{1,3,1}",
+      "term_value": 9.0
+    },
+    {
+      "n": 12,
+      "partition": "4+3+2+2+1",
+      "partition_type": "{1,1,2,1}",
+      "term_value": 8.0
+    },
+    {
+      "n": 12,
+      "partition": "7+2+2+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 48.0
+    },
+    {
+      "n": 12,
+      "partition": "3+3+3+2+1",
+      "partition_type": "{3,1,1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 12,
+      "partition": "6+3+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 40.0
+    },
+    {
+      "n": 12,
+      "partition": "5+4+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 36.0
+    },
+    {
+      "n": 12,
+      "partition": "9+2+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 286.0
+    },
+    {
+      "n": 12,
+      "partition": "5+3+3+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 27.0
+    },
+    {
+      "n": 12,
+      "partition": "4+4+3+1",
+      "partition_type": "{2,1,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 12,
+      "partition": "8+3+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 230.0
+    },
+    {
+      "n": 12,
+      "partition": "7+4+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 192.0
+    },
+    {
+      "n": 12,
+      "partition": "6+5+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 180.0
+    },
+    {
+      "n": 12,
+      "partition": "11+1",
+      "partition_type": "{1,1}",
+      "term_value": 1842.0
+    },
+    {
+      "n": 12,
+      "partition": "2+2+2+2+2+2",
+      "partition_type": "{6}",
+      "term_value": 1.0
+    },
+    {
+      "n": 12,
+      "partition": "4+2+2+2+2",
+      "partition_type": "{1,4}",
+      "term_value": 4.0
+    },
+    {
+      "n": 12,
+      "partition": "3+3+2+2+2",
+      "partition_type": "{2,3}",
+      "term_value": 3.0
+    },
+    {
+      "n": 12,
+      "partition": "6+2+2+2",
+      "partition_type": "{1,3}",
+      "term_value": 20.0
+    },
+    {
+      "n": 12,
+      "partition": "5+3+2+2",
+      "partition_type": "{1,1,2}",
+      "term_value": 18.0
+    },
+    {
+      "n": 12,
+      "partition": "4+4+2+2",
+      "partition_type": "{2,2}",
+      "term_value": 10.0
+    },
+    {
+      "n": 12,
+      "partition": "8+2+2",
+      "partition_type": "{1,2}",
+      "term_value": 115.0
+    },
+    {
+      "n": 12,
+      "partition": "4+3+3+2",
+      "partition_type": "{1,2,1}",
+      "term_value": 12.0
+    },
+    {
+      "n": 12,
+      "partition": "7+3+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 96.0
+    },
+    {
+      "n": 12,
+      "partition": "6+4+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 80.0
+    },
+    {
+      "n": 12,
+      "partition": "5+5+2",
+      "partition_type": "{2,1}",
+      "term_value": 45.0
+    },
+    {
+      "n": 12,
+      "partition": "10+2",
+      "partition_type": "{1,1}",
+      "term_value": 719.0
+    },
+    {
+      "n": 12,
+      "partition": "3+3+3+3",
+      "partition_type": "{4}",
+      "term_value": 5.0
+    },
+    {
+      "n": 12,
+      "partition": "6+3+3",
+      "partition_type": "{1,2}",
+      "term_value": 60.0
+    },
+    {
+      "n": 12,
+      "partition": "5+4+3",
+      "partition_type": "{1,1,1}",
+      "term_value": 72.0
+    },
+    {
+      "n": 12,
+      "partition": "9+3",
+      "partition_type": "{1,1}",
+      "term_value": 572.0
+    },
+    {
+      "n": 12,
+      "partition": "4+4+4",
+      "partition_type": "{3}",
+      "term_value": 20.0
+    },
+    {
+      "n": 12,
+      "partition": "8+4",
+      "partition_type": "{1,1}",
+      "term_value": 460.0
+    },
+    {
+      "n": 12,
+      "partition": "7+5",
+      "partition_type": "{1,1}",
+      "term_value": 432.0
+    },
+    {
+      "n": 12,
+      "partition": "6+6",
+      "partition_type": "{2}",
+      "term_value": 210.0
+    },
+    {
+      "n": 12,
+      "partition": "12",
+      "partition_type": "{1}",
+      "term_value": 4766.0
+    },
+    {
+      "n": 13,
+      "partition": "1+1+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{13}",
+      "term_value": 1.0
+    },
+    {
+      "n": 13,
+      "partition": "2+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,11}",
+      "term_value": 1.0
+    },
+    {
+      "n": 13,
+      "partition": "3+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,10}",
+      "term_value": 2.0
+    },
+    {
+      "n": 13,
+      "partition": "2+2+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{2,9}",
+      "term_value": 1.0
+    },
+    {
+      "n": 13,
+      "partition": "4+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,9}",
+      "term_value": 4.0
+    },
+    {
+      "n": 13,
+      "partition": "3+2+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,8}",
+      "term_value": 2.0
+    },
+    {
+      "n": 13,
+      "partition": "5+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,8}",
+      "term_value": 9.0
+    },
+    {
+      "n": 13,
+      "partition": "2+2+2+1+1+1+1+1+1+1",
+      "partition_type": "{3,7}",
+      "term_value": 1.0
+    },
+    {
+      "n": 13,
+      "partition": "4+2+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,7}",
+      "term_value": 4.0
+    },
+    {
+      "n": 13,
+      "partition": "3+3+1+1+1+1+1+1+1",
+      "partition_type": "{2,7}",
+      "term_value": 3.0
+    },
+    {
+      "n": 13,
+      "partition": "6+1+1+1+1+1+1+1",
+      "partition_type": "{1,7}",
+      "term_value": 20.0
+    },
+    {
+      "n": 13,
+      "partition": "3+2+2+1+1+1+1+1+1",
+      "partition_type": "{1,2,6}",
+      "term_value": 2.0
+    },
+    {
+      "n": 13,
+      "partition": "5+2+1+1+1+1+1+1",
+      "partition_type": "{1,1,6}",
+      "term_value": 9.0
+    },
+    {
+      "n": 13,
+      "partition": "4+3+1+1+1+1+1+1",
+      "partition_type": "{1,1,6}",
+      "term_value": 8.0
+    },
+    {
+      "n": 13,
+      "partition": "7+1+1+1+1+1+1",
+      "partition_type": "{1,6}",
+      "term_value": 48.0
+    },
+    {
+      "n": 13,
+      "partition": "2+2+2+2+1+1+1+1+1",
+      "partition_type": "{4,5}",
+      "term_value": 1.0
+    },
+    {
+      "n": 13,
+      "partition": "4+2+2+1+1+1+1+1",
+      "partition_type": "{1,2,5}",
+      "term_value": 4.0
+    },
+    {
+      "n": 13,
+      "partition": "3+3+2+1+1+1+1+1",
+      "partition_type": "{2,1,5}",
+      "term_value": 3.0
+    },
+    {
+      "n": 13,
+      "partition": "6+2+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 20.0
+    },
+    {
+      "n": 13,
+      "partition": "5+3+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 18.0
+    },
+    {
+      "n": 13,
+      "partition": "4+4+1+1+1+1+1",
+      "partition_type": "{2,5}",
+      "term_value": 10.0
+    },
+    {
+      "n": 13,
+      "partition": "8+1+1+1+1+1",
+      "partition_type": "{1,5}",
+      "term_value": 115.0
+    },
+    {
+      "n": 13,
+      "partition": "3+2+2+2+1+1+1+1",
+      "partition_type": "{1,3,4}",
+      "term_value": 2.0
+    },
+    {
+      "n": 13,
+      "partition": "5+2+2+1+1+1+1",
+      "partition_type": "{1,2,4}",
+      "term_value": 9.0
+    },
+    {
+      "n": 13,
+      "partition": "4+3+2+1+1+1+1",
+      "partition_type": "{1,1,1,4}",
+      "term_value": 8.0
+    },
+    {
+      "n": 13,
+      "partition": "7+2+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 48.0
+    },
+    {
+      "n": 13,
+      "partition": "3+3+3+1+1+1+1",
+      "partition_type": "{3,4}",
+      "term_value": 4.0
+    },
+    {
+      "n": 13,
+      "partition": "6+3+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 40.0
+    },
+    {
+      "n": 13,
+      "partition": "5+4+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 36.0
+    },
+    {
+      "n": 13,
+      "partition": "9+1+1+1+1",
+      "partition_type": "{1,4}",
+      "term_value": 286.0
+    },
+    {
+      "n": 13,
+      "partition": "2+2+2+2+2+1+1+1",
+      "partition_type": "{5,3}",
+      "term_value": 1.0
+    },
+    {
+      "n": 13,
+      "partition": "4+2+2+2+1+1+1",
+      "partition_type": "{1,3,3}",
+      "term_value": 4.0
+    },
+    {
+      "n": 13,
+      "partition": "3+3+2+2+1+1+1",
+      "partition_type": "{2,2,3}",
+      "term_value": 3.0
+    },
+    {
+      "n": 13,
+      "partition": "6+2+2+1+1+1",
+      "partition_type": "{1,2,3}",
+      "term_value": 20.0
+    },
+    {
+      "n": 13,
+      "partition": "5+3+2+1+1+1",
+      "partition_type": "{1,1,1,3}",
+      "term_value": 18.0
+    },
+    {
+      "n": 13,
+      "partition": "4+4+2+1+1+1",
+      "partition_type": "{2,1,3}",
+      "term_value": 10.0
+    },
+    {
+      "n": 13,
+      "partition": "8+2+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 115.0
+    },
+    {
+      "n": 13,
+      "partition": "4+3+3+1+1+1",
+      "partition_type": "{1,2,3}",
+      "term_value": 12.0
+    },
+    {
+      "n": 13,
+      "partition": "7+3+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 96.0
+    },
+    {
+      "n": 13,
+      "partition": "6+4+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 80.0
+    },
+    {
+      "n": 13,
+      "partition": "5+5+1+1+1",
+      "partition_type": "{2,3}",
+      "term_value": 45.0
+    },
+    {
+      "n": 13,
+      "partition": "10+1+1+1",
+      "partition_type": "{1,3}",
+      "term_value": 719.0
+    },
+    {
+      "n": 13,
+      "partition": "3+2+2+2+2+1+1",
+      "partition_type": "{1,4,2}",
+      "term_value": 2.0
+    },
+    {
+      "n": 13,
+      "partition": "5+2+2+2+1+1",
+      "partition_type": "{1,3,2}",
+      "term_value": 9.0
+    },
+    {
+      "n": 13,
+      "partition": "4+3+2+2+1+1",
+      "partition_type": "{1,1,2,2}",
+      "term_value": 8.0
+    },
+    {
+      "n": 13,
+      "partition": "7+2+2+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 48.0
+    },
+    {
+      "n": 13,
+      "partition": "3+3+3+2+1+1",
+      "partition_type": "{3,1,2}",
+      "term_value": 4.0
+    },
+    {
+      "n": 13,
+      "partition": "6+3+2+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 40.0
+    },
+    {
+      "n": 13,
+      "partition": "5+4+2+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 36.0
+    },
+    {
+      "n": 13,
+      "partition": "9+2+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 286.0
+    },
+    {
+      "n": 13,
+      "partition": "5+3+3+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 27.0
+    },
+    {
+      "n": 13,
+      "partition": "4+4+3+1+1",
+      "partition_type": "{2,1,2}",
+      "term_value": 20.0
+    },
+    {
+      "n": 13,
+      "partition": "8+3+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 230.0
+    },
+    {
+      "n": 13,
+      "partition": "7+4+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 192.0
+    },
+    {
+      "n": 13,
+      "partition": "6+5+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 180.0
+    },
+    {
+      "n": 13,
+      "partition": "11+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 1842.0
+    },
+    {
+      "n": 13,
+      "partition": "2+2+2+2+2+2+1",
+      "partition_type": "{6,1}",
+      "term_value": 1.0
+    },
+    {
+      "n": 13,
+      "partition": "4+2+2+2+2+1",
+      "partition_type": "{1,4,1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 13,
+      "partition": "3+3+2+2+2+1",
+      "partition_type": "{2,3,1}",
+      "term_value": 3.0
+    },
+    {
+      "n": 13,
+      "partition": "6+2+2+2+1",
+      "partition_type": "{1,3,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 13,
+      "partition": "5+3+2+2+1",
+      "partition_type": "{1,1,2,1}",
+      "term_value": 18.0
+    },
+    {
+      "n": 13,
+      "partition": "4+4+2+2+1",
+      "partition_type": "{2,2,1}",
+      "term_value": 10.0
+    },
+    {
+      "n": 13,
+      "partition": "8+2+2+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 115.0
+    },
+    {
+      "n": 13,
+      "partition": "4+3+3+2+1",
+      "partition_type": "{1,2,1,1}",
+      "term_value": 12.0
+    },
+    {
+      "n": 13,
+      "partition": "7+3+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 96.0
+    },
+    {
+      "n": 13,
+      "partition": "6+4+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 80.0
+    },
+    {
+      "n": 13,
+      "partition": "5+5+2+1",
+      "partition_type": "{2,1,1}",
+      "term_value": 45.0
+    },
+    {
+      "n": 13,
+      "partition": "10+2+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 719.0
+    },
+    {
+      "n": 13,
+      "partition": "3+3+3+3+1",
+      "partition_type": "{4,1}",
+      "term_value": 5.0
+    },
+    {
+      "n": 13,
+      "partition": "6+3+3+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 60.0
+    },
+    {
+      "n": 13,
+      "partition": "5+4+3+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 72.0
+    },
+    {
+      "n": 13,
+      "partition": "9+3+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 572.0
+    },
+    {
+      "n": 13,
+      "partition": "4+4+4+1",
+      "partition_type": "{3,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 13,
+      "partition": "8+4+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 460.0
+    },
+    {
+      "n": 13,
+      "partition": "7+5+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 432.0
+    },
+    {
+      "n": 13,
+      "partition": "6+6+1",
+      "partition_type": "{2,1}",
+      "term_value": 210.0
+    },
+    {
+      "n": 13,
+      "partition": "12+1",
+      "partition_type": "{1,1}",
+      "term_value": 4766.0
+    },
+    {
+      "n": 13,
+      "partition": "3+2+2+2+2+2",
+      "partition_type": "{1,5}",
+      "term_value": 2.0
+    },
+    {
+      "n": 13,
+      "partition": "5+2+2+2+2",
+      "partition_type": "{1,4}",
+      "term_value": 9.0
+    },
+    {
+      "n": 13,
+      "partition": "4+3+2+2+2",
+      "partition_type": "{1,1,3}",
+      "term_value": 8.0
+    },
+    {
+      "n": 13,
+      "partition": "7+2+2+2",
+      "partition_type": "{1,3}",
+      "term_value": 48.0
+    },
+    {
+      "n": 13,
+      "partition": "3+3+3+2+2",
+      "partition_type": "{3,2}",
+      "term_value": 4.0
+    },
+    {
+      "n": 13,
+      "partition": "6+3+2+2",
+      "partition_type": "{1,1,2}",
+      "term_value": 40.0
+    },
+    {
+      "n": 13,
+      "partition": "5+4+2+2",
+      "partition_type": "{1,1,2}",
+      "term_value": 36.0
+    },
+    {
+      "n": 13,
+      "partition": "9+2+2",
+      "partition_type": "{1,2}",
+      "term_value": 286.0
+    },
+    {
+      "n": 13,
+      "partition": "5+3+3+2",
+      "partition_type": "{1,2,1}",
+      "term_value": 27.0
+    },
+    {
+      "n": 13,
+      "partition": "4+4+3+2",
+      "partition_type": "{2,1,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 13,
+      "partition": "8+3+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 230.0
+    },
+    {
+      "n": 13,
+      "partition": "7+4+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 192.0
+    },
+    {
+      "n": 13,
+      "partition": "6+5+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 180.0
+    },
+    {
+      "n": 13,
+      "partition": "11+2",
+      "partition_type": "{1,1}",
+      "term_value": 1842.0
+    },
+    {
+      "n": 13,
+      "partition": "4+3+3+3",
+      "partition_type": "{1,3}",
+      "term_value": 16.0
+    },
+    {
+      "n": 13,
+      "partition": "7+3+3",
+      "partition_type": "{1,2}",
+      "term_value": 144.0
+    },
+    {
+      "n": 13,
+      "partition": "6+4+3",
+      "partition_type": "{1,1,1}",
+      "term_value": 160.0
+    },
+    {
+      "n": 13,
+      "partition": "5+5+3",
+      "partition_type": "{2,1}",
+      "term_value": 90.0
+    },
+    {
+      "n": 13,
+      "partition": "10+3",
+      "partition_type": "{1,1}",
+      "term_value": 1438.0
+    },
+    {
+      "n": 13,
+      "partition": "5+4+4",
+      "partition_type": "{1,2}",
+      "term_value": 90.0
+    },
+    {
+      "n": 13,
+      "partition": "9+4",
+      "partition_type": "{1,1}",
+      "term_value": 1144.0
+    },
+    {
+      "n": 13,
+      "partition": "8+5",
+      "partition_type": "{1,1}",
+      "term_value": 1035.0
+    },
+    {
+      "n": 13,
+      "partition": "7+6",
+      "partition_type": "{1,1}",
+      "term_value": 960.0
+    },
+    {
+      "n": 13,
+      "partition": "13",
+      "partition_type": "{1}",
+      "term_value": 12486.0
+    },
+    {
+      "n": 14,
+      "partition": "1+1+1+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{14}",
+      "term_value": 1.0
+    },
+    {
+      "n": 14,
+      "partition": "2+1+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,12}",
+      "term_value": 1.0
+    },
+    {
+      "n": 14,
+      "partition": "3+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,11}",
+      "term_value": 2.0
+    },
+    {
+      "n": 14,
+      "partition": "2+2+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{2,10}",
+      "term_value": 1.0
+    },
+    {
+      "n": 14,
+      "partition": "4+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,10}",
+      "term_value": 4.0
+    },
+    {
+      "n": 14,
+      "partition": "3+2+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,9}",
+      "term_value": 2.0
+    },
+    {
+      "n": 14,
+      "partition": "5+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,9}",
+      "term_value": 9.0
+    },
+    {
+      "n": 14,
+      "partition": "2+2+2+1+1+1+1+1+1+1+1",
+      "partition_type": "{3,8}",
+      "term_value": 1.0
+    },
+    {
+      "n": 14,
+      "partition": "4+2+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,8}",
+      "term_value": 4.0
+    },
+    {
+      "n": 14,
+      "partition": "3+3+1+1+1+1+1+1+1+1",
+      "partition_type": "{2,8}",
+      "term_value": 3.0
+    },
+    {
+      "n": 14,
+      "partition": "6+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,8}",
+      "term_value": 20.0
+    },
+    {
+      "n": 14,
+      "partition": "3+2+2+1+1+1+1+1+1+1",
+      "partition_type": "{1,2,7}",
+      "term_value": 2.0
+    },
+    {
+      "n": 14,
+      "partition": "5+2+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,7}",
+      "term_value": 9.0
+    },
+    {
+      "n": 14,
+      "partition": "4+3+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,7}",
+      "term_value": 8.0
+    },
+    {
+      "n": 14,
+      "partition": "7+1+1+1+1+1+1+1",
+      "partition_type": "{1,7}",
+      "term_value": 48.0
+    },
+    {
+      "n": 14,
+      "partition": "2+2+2+2+1+1+1+1+1+1",
+      "partition_type": "{4,6}",
+      "term_value": 1.0
+    },
+    {
+      "n": 14,
+      "partition": "4+2+2+1+1+1+1+1+1",
+      "partition_type": "{1,2,6}",
+      "term_value": 4.0
+    },
+    {
+      "n": 14,
+      "partition": "3+3+2+1+1+1+1+1+1",
+      "partition_type": "{2,1,6}",
+      "term_value": 3.0
+    },
+    {
+      "n": 14,
+      "partition": "6+2+1+1+1+1+1+1",
+      "partition_type": "{1,1,6}",
+      "term_value": 20.0
+    },
+    {
+      "n": 14,
+      "partition": "5+3+1+1+1+1+1+1",
+      "partition_type": "{1,1,6}",
+      "term_value": 18.0
+    },
+    {
+      "n": 14,
+      "partition": "4+4+1+1+1+1+1+1",
+      "partition_type": "{2,6}",
+      "term_value": 10.0
+    },
+    {
+      "n": 14,
+      "partition": "8+1+1+1+1+1+1",
+      "partition_type": "{1,6}",
+      "term_value": 115.0
+    },
+    {
+      "n": 14,
+      "partition": "3+2+2+2+1+1+1+1+1",
+      "partition_type": "{1,3,5}",
+      "term_value": 2.0
+    },
+    {
+      "n": 14,
+      "partition": "5+2+2+1+1+1+1+1",
+      "partition_type": "{1,2,5}",
+      "term_value": 9.0
+    },
+    {
+      "n": 14,
+      "partition": "4+3+2+1+1+1+1+1",
+      "partition_type": "{1,1,1,5}",
+      "term_value": 8.0
+    },
+    {
+      "n": 14,
+      "partition": "7+2+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 48.0
+    },
+    {
+      "n": 14,
+      "partition": "3+3+3+1+1+1+1+1",
+      "partition_type": "{3,5}",
+      "term_value": 4.0
+    },
+    {
+      "n": 14,
+      "partition": "6+3+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 40.0
+    },
+    {
+      "n": 14,
+      "partition": "5+4+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 36.0
+    },
+    {
+      "n": 14,
+      "partition": "9+1+1+1+1+1",
+      "partition_type": "{1,5}",
+      "term_value": 286.0
+    },
+    {
+      "n": 14,
+      "partition": "2+2+2+2+2+1+1+1+1",
+      "partition_type": "{5,4}",
+      "term_value": 1.0
+    },
+    {
+      "n": 14,
+      "partition": "4+2+2+2+1+1+1+1",
+      "partition_type": "{1,3,4}",
+      "term_value": 4.0
+    },
+    {
+      "n": 14,
+      "partition": "3+3+2+2+1+1+1+1",
+      "partition_type": "{2,2,4}",
+      "term_value": 3.0
+    },
+    {
+      "n": 14,
+      "partition": "6+2+2+1+1+1+1",
+      "partition_type": "{1,2,4}",
+      "term_value": 20.0
+    },
+    {
+      "n": 14,
+      "partition": "5+3+2+1+1+1+1",
+      "partition_type": "{1,1,1,4}",
+      "term_value": 18.0
+    },
+    {
+      "n": 14,
+      "partition": "4+4+2+1+1+1+1",
+      "partition_type": "{2,1,4}",
+      "term_value": 10.0
+    },
+    {
+      "n": 14,
+      "partition": "8+2+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 115.0
+    },
+    {
+      "n": 14,
+      "partition": "4+3+3+1+1+1+1",
+      "partition_type": "{1,2,4}",
+      "term_value": 12.0
+    },
+    {
+      "n": 14,
+      "partition": "7+3+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 96.0
+    },
+    {
+      "n": 14,
+      "partition": "6+4+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 80.0
+    },
+    {
+      "n": 14,
+      "partition": "5+5+1+1+1+1",
+      "partition_type": "{2,4}",
+      "term_value": 45.0
+    },
+    {
+      "n": 14,
+      "partition": "10+1+1+1+1",
+      "partition_type": "{1,4}",
+      "term_value": 719.0
+    },
+    {
+      "n": 14,
+      "partition": "3+2+2+2+2+1+1+1",
+      "partition_type": "{1,4,3}",
+      "term_value": 2.0
+    },
+    {
+      "n": 14,
+      "partition": "5+2+2+2+1+1+1",
+      "partition_type": "{1,3,3}",
+      "term_value": 9.0
+    },
+    {
+      "n": 14,
+      "partition": "4+3+2+2+1+1+1",
+      "partition_type": "{1,1,2,3}",
+      "term_value": 8.0
+    },
+    {
+      "n": 14,
+      "partition": "7+2+2+1+1+1",
+      "partition_type": "{1,2,3}",
+      "term_value": 48.0
+    },
+    {
+      "n": 14,
+      "partition": "3+3+3+2+1+1+1",
+      "partition_type": "{3,1,3}",
+      "term_value": 4.0
+    },
+    {
+      "n": 14,
+      "partition": "6+3+2+1+1+1",
+      "partition_type": "{1,1,1,3}",
+      "term_value": 40.0
+    },
+    {
+      "n": 14,
+      "partition": "5+4+2+1+1+1",
+      "partition_type": "{1,1,1,3}",
+      "term_value": 36.0
+    },
+    {
+      "n": 14,
+      "partition": "9+2+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 286.0
+    },
+    {
+      "n": 14,
+      "partition": "5+3+3+1+1+1",
+      "partition_type": "{1,2,3}",
+      "term_value": 27.0
+    },
+    {
+      "n": 14,
+      "partition": "4+4+3+1+1+1",
+      "partition_type": "{2,1,3}",
+      "term_value": 20.0
+    },
+    {
+      "n": 14,
+      "partition": "8+3+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 230.0
+    },
+    {
+      "n": 14,
+      "partition": "7+4+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 192.0
+    },
+    {
+      "n": 14,
+      "partition": "6+5+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 180.0
+    },
+    {
+      "n": 14,
+      "partition": "11+1+1+1",
+      "partition_type": "{1,3}",
+      "term_value": 1842.0
+    },
+    {
+      "n": 14,
+      "partition": "2+2+2+2+2+2+1+1",
+      "partition_type": "{6,2}",
+      "term_value": 1.0
+    },
+    {
+      "n": 14,
+      "partition": "4+2+2+2+2+1+1",
+      "partition_type": "{1,4,2}",
+      "term_value": 4.0
+    },
+    {
+      "n": 14,
+      "partition": "3+3+2+2+2+1+1",
+      "partition_type": "{2,3,2}",
+      "term_value": 3.0
+    },
+    {
+      "n": 14,
+      "partition": "6+2+2+2+1+1",
+      "partition_type": "{1,3,2}",
+      "term_value": 20.0
+    },
+    {
+      "n": 14,
+      "partition": "5+3+2+2+1+1",
+      "partition_type": "{1,1,2,2}",
+      "term_value": 18.0
+    },
+    {
+      "n": 14,
+      "partition": "4+4+2+2+1+1",
+      "partition_type": "{2,2,2}",
+      "term_value": 10.0
+    },
+    {
+      "n": 14,
+      "partition": "8+2+2+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 115.0
+    },
+    {
+      "n": 14,
+      "partition": "4+3+3+2+1+1",
+      "partition_type": "{1,2,1,2}",
+      "term_value": 12.0
+    },
+    {
+      "n": 14,
+      "partition": "7+3+2+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 96.0
+    },
+    {
+      "n": 14,
+      "partition": "6+4+2+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 80.0
+    },
+    {
+      "n": 14,
+      "partition": "5+5+2+1+1",
+      "partition_type": "{2,1,2}",
+      "term_value": 45.0
+    },
+    {
+      "n": 14,
+      "partition": "10+2+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 719.0
+    },
+    {
+      "n": 14,
+      "partition": "3+3+3+3+1+1",
+      "partition_type": "{4,2}",
+      "term_value": 5.0
+    },
+    {
+      "n": 14,
+      "partition": "6+3+3+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 60.0
+    },
+    {
+      "n": 14,
+      "partition": "5+4+3+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 72.0
+    },
+    {
+      "n": 14,
+      "partition": "9+3+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 572.0
+    },
+    {
+      "n": 14,
+      "partition": "4+4+4+1+1",
+      "partition_type": "{3,2}",
+      "term_value": 20.0
+    },
+    {
+      "n": 14,
+      "partition": "8+4+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 460.0
+    },
+    {
+      "n": 14,
+      "partition": "7+5+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 432.0
+    },
+    {
+      "n": 14,
+      "partition": "6+6+1+1",
+      "partition_type": "{2,2}",
+      "term_value": 210.0
+    },
+    {
+      "n": 14,
+      "partition": "12+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 4766.0
+    },
+    {
+      "n": 14,
+      "partition": "3+2+2+2+2+2+1",
+      "partition_type": "{1,5,1}",
+      "term_value": 2.0
+    },
+    {
+      "n": 14,
+      "partition": "5+2+2+2+2+1",
+      "partition_type": "{1,4,1}",
+      "term_value": 9.0
+    },
+    {
+      "n": 14,
+      "partition": "4+3+2+2+2+1",
+      "partition_type": "{1,1,3,1}",
+      "term_value": 8.0
+    },
+    {
+      "n": 14,
+      "partition": "7+2+2+2+1",
+      "partition_type": "{1,3,1}",
+      "term_value": 48.0
+    },
+    {
+      "n": 14,
+      "partition": "3+3+3+2+2+1",
+      "partition_type": "{3,2,1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 14,
+      "partition": "6+3+2+2+1",
+      "partition_type": "{1,1,2,1}",
+      "term_value": 40.0
+    },
+    {
+      "n": 14,
+      "partition": "5+4+2+2+1",
+      "partition_type": "{1,1,2,1}",
+      "term_value": 36.0
+    },
+    {
+      "n": 14,
+      "partition": "9+2+2+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 286.0
+    },
+    {
+      "n": 14,
+      "partition": "5+3+3+2+1",
+      "partition_type": "{1,2,1,1}",
+      "term_value": 27.0
+    },
+    {
+      "n": 14,
+      "partition": "4+4+3+2+1",
+      "partition_type": "{2,1,1,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 14,
+      "partition": "8+3+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 230.0
+    },
+    {
+      "n": 14,
+      "partition": "7+4+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 192.0
+    },
+    {
+      "n": 14,
+      "partition": "6+5+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 180.0
+    },
+    {
+      "n": 14,
+      "partition": "11+2+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 1842.0
+    },
+    {
+      "n": 14,
+      "partition": "4+3+3+3+1",
+      "partition_type": "{1,3,1}",
+      "term_value": 16.0
+    },
+    {
+      "n": 14,
+      "partition": "7+3+3+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 144.0
+    },
+    {
+      "n": 14,
+      "partition": "6+4+3+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 160.0
+    },
+    {
+      "n": 14,
+      "partition": "5+5+3+1",
+      "partition_type": "{2,1,1}",
+      "term_value": 90.0
+    },
+    {
+      "n": 14,
+      "partition": "10+3+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 1438.0
+    },
+    {
+      "n": 14,
+      "partition": "5+4+4+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 90.0
+    },
+    {
+      "n": 14,
+      "partition": "9+4+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 1144.0
+    },
+    {
+      "n": 14,
+      "partition": "8+5+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 1035.0
+    },
+    {
+      "n": 14,
+      "partition": "7+6+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 960.0
+    },
+    {
+      "n": 14,
+      "partition": "13+1",
+      "partition_type": "{1,1}",
+      "term_value": 12486.0
+    },
+    {
+      "n": 14,
+      "partition": "2+2+2+2+2+2+2",
+      "partition_type": "{7}",
+      "term_value": 1.0
+    },
+    {
+      "n": 14,
+      "partition": "4+2+2+2+2+2",
+      "partition_type": "{1,5}",
+      "term_value": 4.0
+    },
+    {
+      "n": 14,
+      "partition": "3+3+2+2+2+2",
+      "partition_type": "{2,4}",
+      "term_value": 3.0
+    },
+    {
+      "n": 14,
+      "partition": "6+2+2+2+2",
+      "partition_type": "{1,4}",
+      "term_value": 20.0
+    },
+    {
+      "n": 14,
+      "partition": "5+3+2+2+2",
+      "partition_type": "{1,1,3}",
+      "term_value": 18.0
+    },
+    {
+      "n": 14,
+      "partition": "4+4+2+2+2",
+      "partition_type": "{2,3}",
+      "term_value": 10.0
+    },
+    {
+      "n": 14,
+      "partition": "8+2+2+2",
+      "partition_type": "{1,3}",
+      "term_value": 115.0
+    },
+    {
+      "n": 14,
+      "partition": "4+3+3+2+2",
+      "partition_type": "{1,2,2}",
+      "term_value": 12.0
+    },
+    {
+      "n": 14,
+      "partition": "7+3+2+2",
+      "partition_type": "{1,1,2}",
+      "term_value": 96.0
+    },
+    {
+      "n": 14,
+      "partition": "6+4+2+2",
+      "partition_type": "{1,1,2}",
+      "term_value": 80.0
+    },
+    {
+      "n": 14,
+      "partition": "5+5+2+2",
+      "partition_type": "{2,2}",
+      "term_value": 45.0
+    },
+    {
+      "n": 14,
+      "partition": "10+2+2",
+      "partition_type": "{1,2}",
+      "term_value": 719.0
+    },
+    {
+      "n": 14,
+      "partition": "3+3+3+3+2",
+      "partition_type": "{4,1}",
+      "term_value": 5.0
+    },
+    {
+      "n": 14,
+      "partition": "6+3+3+2",
+      "partition_type": "{1,2,1}",
+      "term_value": 60.0
+    },
+    {
+      "n": 14,
+      "partition": "5+4+3+2",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 72.0
+    },
+    {
+      "n": 14,
+      "partition": "9+3+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 572.0
+    },
+    {
+      "n": 14,
+      "partition": "4+4+4+2",
+      "partition_type": "{3,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 14,
+      "partition": "8+4+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 460.0
+    },
+    {
+      "n": 14,
+      "partition": "7+5+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 432.0
+    },
+    {
+      "n": 14,
+      "partition": "6+6+2",
+      "partition_type": "{2,1}",
+      "term_value": 210.0
+    },
+    {
+      "n": 14,
+      "partition": "12+2",
+      "partition_type": "{1,1}",
+      "term_value": 4766.0
+    },
+    {
+      "n": 14,
+      "partition": "5+3+3+3",
+      "partition_type": "{1,3}",
+      "term_value": 36.0
+    },
+    {
+      "n": 14,
+      "partition": "4+4+3+3",
+      "partition_type": "{2,2}",
+      "term_value": 30.0
+    },
+    {
+      "n": 14,
+      "partition": "8+3+3",
+      "partition_type": "{1,2}",
+      "term_value": 345.0
+    },
+    {
+      "n": 14,
+      "partition": "7+4+3",
+      "partition_type": "{1,1,1}",
+      "term_value": 384.0
+    },
+    {
+      "n": 14,
+      "partition": "6+5+3",
+      "partition_type": "{1,1,1}",
+      "term_value": 360.0
+    },
+    {
+      "n": 14,
+      "partition": "11+3",
+      "partition_type": "{1,1}",
+      "term_value": 3684.0
+    },
+    {
+      "n": 14,
+      "partition": "6+4+4",
+      "partition_type": "{1,2}",
+      "term_value": 200.0
+    },
+    {
+      "n": 14,
+      "partition": "5+5+4",
+      "partition_type": "{2,1}",
+      "term_value": 180.0
+    },
+    {
+      "n": 14,
+      "partition": "10+4",
+      "partition_type": "{1,1}",
+      "term_value": 2876.0
+    },
+    {
+      "n": 14,
+      "partition": "9+5",
+      "partition_type": "{1,1}",
+      "term_value": 2574.0
+    },
+    {
+      "n": 14,
+      "partition": "8+6",
+      "partition_type": "{1,1}",
+      "term_value": 2300.0
+    },
+    {
+      "n": 14,
+      "partition": "7+7",
+      "partition_type": "{2}",
+      "term_value": 1176.0
+    },
+    {
+      "n": 14,
+      "partition": "14",
+      "partition_type": "{1}",
+      "term_value": 32973.0
+    },
+    {
+      "n": 15,
+      "partition": "1+1+1+1+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{15}",
+      "term_value": 1.0
+    },
+    {
+      "n": 15,
+      "partition": "2+1+1+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,13}",
+      "term_value": 1.0
+    },
+    {
+      "n": 15,
+      "partition": "3+1+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,12}",
+      "term_value": 2.0
+    },
+    {
+      "n": 15,
+      "partition": "2+2+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{2,11}",
+      "term_value": 1.0
+    },
+    {
+      "n": 15,
+      "partition": "4+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,11}",
+      "term_value": 4.0
+    },
+    {
+      "n": 15,
+      "partition": "3+2+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,10}",
+      "term_value": 2.0
+    },
+    {
+      "n": 15,
+      "partition": "5+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,10}",
+      "term_value": 9.0
+    },
+    {
+      "n": 15,
+      "partition": "2+2+2+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{3,9}",
+      "term_value": 1.0
+    },
+    {
+      "n": 15,
+      "partition": "4+2+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,9}",
+      "term_value": 4.0
+    },
+    {
+      "n": 15,
+      "partition": "3+3+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{2,9}",
+      "term_value": 3.0
+    },
+    {
+      "n": 15,
+      "partition": "6+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,9}",
+      "term_value": 20.0
+    },
+    {
+      "n": 15,
+      "partition": "3+2+2+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,2,8}",
+      "term_value": 2.0
+    },
+    {
+      "n": 15,
+      "partition": "5+2+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,8}",
+      "term_value": 9.0
+    },
+    {
+      "n": 15,
+      "partition": "4+3+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,8}",
+      "term_value": 8.0
+    },
+    {
+      "n": 15,
+      "partition": "7+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,8}",
+      "term_value": 48.0
+    },
+    {
+      "n": 15,
+      "partition": "2+2+2+2+1+1+1+1+1+1+1",
+      "partition_type": "{4,7}",
+      "term_value": 1.0
+    },
+    {
+      "n": 15,
+      "partition": "4+2+2+1+1+1+1+1+1+1",
+      "partition_type": "{1,2,7}",
+      "term_value": 4.0
+    },
+    {
+      "n": 15,
+      "partition": "3+3+2+1+1+1+1+1+1+1",
+      "partition_type": "{2,1,7}",
+      "term_value": 3.0
+    },
+    {
+      "n": 15,
+      "partition": "6+2+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,7}",
+      "term_value": 20.0
+    },
+    {
+      "n": 15,
+      "partition": "5+3+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,7}",
+      "term_value": 18.0
+    },
+    {
+      "n": 15,
+      "partition": "4+4+1+1+1+1+1+1+1",
+      "partition_type": "{2,7}",
+      "term_value": 10.0
+    },
+    {
+      "n": 15,
+      "partition": "8+1+1+1+1+1+1+1",
+      "partition_type": "{1,7}",
+      "term_value": 115.0
+    },
+    {
+      "n": 15,
+      "partition": "3+2+2+2+1+1+1+1+1+1",
+      "partition_type": "{1,3,6}",
+      "term_value": 2.0
+    },
+    {
+      "n": 15,
+      "partition": "5+2+2+1+1+1+1+1+1",
+      "partition_type": "{1,2,6}",
+      "term_value": 9.0
+    },
+    {
+      "n": 15,
+      "partition": "4+3+2+1+1+1+1+1+1",
+      "partition_type": "{1,1,1,6}",
+      "term_value": 8.0
+    },
+    {
+      "n": 15,
+      "partition": "7+2+1+1+1+1+1+1",
+      "partition_type": "{1,1,6}",
+      "term_value": 48.0
+    },
+    {
+      "n": 15,
+      "partition": "3+3+3+1+1+1+1+1+1",
+      "partition_type": "{3,6}",
+      "term_value": 4.0
+    },
+    {
+      "n": 15,
+      "partition": "6+3+1+1+1+1+1+1",
+      "partition_type": "{1,1,6}",
+      "term_value": 40.0
+    },
+    {
+      "n": 15,
+      "partition": "5+4+1+1+1+1+1+1",
+      "partition_type": "{1,1,6}",
+      "term_value": 36.0
+    },
+    {
+      "n": 15,
+      "partition": "9+1+1+1+1+1+1",
+      "partition_type": "{1,6}",
+      "term_value": 286.0
+    },
+    {
+      "n": 15,
+      "partition": "2+2+2+2+2+1+1+1+1+1",
+      "partition_type": "{5,5}",
+      "term_value": 1.0
+    },
+    {
+      "n": 15,
+      "partition": "4+2+2+2+1+1+1+1+1",
+      "partition_type": "{1,3,5}",
+      "term_value": 4.0
+    },
+    {
+      "n": 15,
+      "partition": "3+3+2+2+1+1+1+1+1",
+      "partition_type": "{2,2,5}",
+      "term_value": 3.0
+    },
+    {
+      "n": 15,
+      "partition": "6+2+2+1+1+1+1+1",
+      "partition_type": "{1,2,5}",
+      "term_value": 20.0
+    },
+    {
+      "n": 15,
+      "partition": "5+3+2+1+1+1+1+1",
+      "partition_type": "{1,1,1,5}",
+      "term_value": 18.0
+    },
+    {
+      "n": 15,
+      "partition": "4+4+2+1+1+1+1+1",
+      "partition_type": "{2,1,5}",
+      "term_value": 10.0
+    },
+    {
+      "n": 15,
+      "partition": "8+2+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 115.0
+    },
+    {
+      "n": 15,
+      "partition": "4+3+3+1+1+1+1+1",
+      "partition_type": "{1,2,5}",
+      "term_value": 12.0
+    },
+    {
+      "n": 15,
+      "partition": "7+3+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 96.0
+    },
+    {
+      "n": 15,
+      "partition": "6+4+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 80.0
+    },
+    {
+      "n": 15,
+      "partition": "5+5+1+1+1+1+1",
+      "partition_type": "{2,5}",
+      "term_value": 45.0
+    },
+    {
+      "n": 15,
+      "partition": "10+1+1+1+1+1",
+      "partition_type": "{1,5}",
+      "term_value": 719.0
+    },
+    {
+      "n": 15,
+      "partition": "3+2+2+2+2+1+1+1+1",
+      "partition_type": "{1,4,4}",
+      "term_value": 2.0
+    },
+    {
+      "n": 15,
+      "partition": "5+2+2+2+1+1+1+1",
+      "partition_type": "{1,3,4}",
+      "term_value": 9.0
+    },
+    {
+      "n": 15,
+      "partition": "4+3+2+2+1+1+1+1",
+      "partition_type": "{1,1,2,4}",
+      "term_value": 8.0
+    },
+    {
+      "n": 15,
+      "partition": "7+2+2+1+1+1+1",
+      "partition_type": "{1,2,4}",
+      "term_value": 48.0
+    },
+    {
+      "n": 15,
+      "partition": "3+3+3+2+1+1+1+1",
+      "partition_type": "{3,1,4}",
+      "term_value": 4.0
+    },
+    {
+      "n": 15,
+      "partition": "6+3+2+1+1+1+1",
+      "partition_type": "{1,1,1,4}",
+      "term_value": 40.0
+    },
+    {
+      "n": 15,
+      "partition": "5+4+2+1+1+1+1",
+      "partition_type": "{1,1,1,4}",
+      "term_value": 36.0
+    },
+    {
+      "n": 15,
+      "partition": "9+2+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 286.0
+    },
+    {
+      "n": 15,
+      "partition": "5+3+3+1+1+1+1",
+      "partition_type": "{1,2,4}",
+      "term_value": 27.0
+    },
+    {
+      "n": 15,
+      "partition": "4+4+3+1+1+1+1",
+      "partition_type": "{2,1,4}",
+      "term_value": 20.0
+    },
+    {
+      "n": 15,
+      "partition": "8+3+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 230.0
+    },
+    {
+      "n": 15,
+      "partition": "7+4+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 192.0
+    },
+    {
+      "n": 15,
+      "partition": "6+5+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 180.0
+    },
+    {
+      "n": 15,
+      "partition": "11+1+1+1+1",
+      "partition_type": "{1,4}",
+      "term_value": 1842.0
+    },
+    {
+      "n": 15,
+      "partition": "2+2+2+2+2+2+1+1+1",
+      "partition_type": "{6,3}",
+      "term_value": 1.0
+    },
+    {
+      "n": 15,
+      "partition": "4+2+2+2+2+1+1+1",
+      "partition_type": "{1,4,3}",
+      "term_value": 4.0
+    },
+    {
+      "n": 15,
+      "partition": "3+3+2+2+2+1+1+1",
+      "partition_type": "{2,3,3}",
+      "term_value": 3.0
+    },
+    {
+      "n": 15,
+      "partition": "6+2+2+2+1+1+1",
+      "partition_type": "{1,3,3}",
+      "term_value": 20.0
+    },
+    {
+      "n": 15,
+      "partition": "5+3+2+2+1+1+1",
+      "partition_type": "{1,1,2,3}",
+      "term_value": 18.0
+    },
+    {
+      "n": 15,
+      "partition": "4+4+2+2+1+1+1",
+      "partition_type": "{2,2,3}",
+      "term_value": 10.0
+    },
+    {
+      "n": 15,
+      "partition": "8+2+2+1+1+1",
+      "partition_type": "{1,2,3}",
+      "term_value": 115.0
+    },
+    {
+      "n": 15,
+      "partition": "4+3+3+2+1+1+1",
+      "partition_type": "{1,2,1,3}",
+      "term_value": 12.0
+    },
+    {
+      "n": 15,
+      "partition": "7+3+2+1+1+1",
+      "partition_type": "{1,1,1,3}",
+      "term_value": 96.0
+    },
+    {
+      "n": 15,
+      "partition": "6+4+2+1+1+1",
+      "partition_type": "{1,1,1,3}",
+      "term_value": 80.0
+    },
+    {
+      "n": 15,
+      "partition": "5+5+2+1+1+1",
+      "partition_type": "{2,1,3}",
+      "term_value": 45.0
+    },
+    {
+      "n": 15,
+      "partition": "10+2+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 719.0
+    },
+    {
+      "n": 15,
+      "partition": "3+3+3+3+1+1+1",
+      "partition_type": "{4,3}",
+      "term_value": 5.0
+    },
+    {
+      "n": 15,
+      "partition": "6+3+3+1+1+1",
+      "partition_type": "{1,2,3}",
+      "term_value": 60.0
+    },
+    {
+      "n": 15,
+      "partition": "5+4+3+1+1+1",
+      "partition_type": "{1,1,1,3}",
+      "term_value": 72.0
+    },
+    {
+      "n": 15,
+      "partition": "9+3+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 572.0
+    },
+    {
+      "n": 15,
+      "partition": "4+4+4+1+1+1",
+      "partition_type": "{3,3}",
+      "term_value": 20.0
+    },
+    {
+      "n": 15,
+      "partition": "8+4+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 460.0
+    },
+    {
+      "n": 15,
+      "partition": "7+5+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 432.0
+    },
+    {
+      "n": 15,
+      "partition": "6+6+1+1+1",
+      "partition_type": "{2,3}",
+      "term_value": 210.0
+    },
+    {
+      "n": 15,
+      "partition": "12+1+1+1",
+      "partition_type": "{1,3}",
+      "term_value": 4766.0
+    },
+    {
+      "n": 15,
+      "partition": "3+2+2+2+2+2+1+1",
+      "partition_type": "{1,5,2}",
+      "term_value": 2.0
+    },
+    {
+      "n": 15,
+      "partition": "5+2+2+2+2+1+1",
+      "partition_type": "{1,4,2}",
+      "term_value": 9.0
+    },
+    {
+      "n": 15,
+      "partition": "4+3+2+2+2+1+1",
+      "partition_type": "{1,1,3,2}",
+      "term_value": 8.0
+    },
+    {
+      "n": 15,
+      "partition": "7+2+2+2+1+1",
+      "partition_type": "{1,3,2}",
+      "term_value": 48.0
+    },
+    {
+      "n": 15,
+      "partition": "3+3+3+2+2+1+1",
+      "partition_type": "{3,2,2}",
+      "term_value": 4.0
+    },
+    {
+      "n": 15,
+      "partition": "6+3+2+2+1+1",
+      "partition_type": "{1,1,2,2}",
+      "term_value": 40.0
+    },
+    {
+      "n": 15,
+      "partition": "5+4+2+2+1+1",
+      "partition_type": "{1,1,2,2}",
+      "term_value": 36.0
+    },
+    {
+      "n": 15,
+      "partition": "9+2+2+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 286.0
+    },
+    {
+      "n": 15,
+      "partition": "5+3+3+2+1+1",
+      "partition_type": "{1,2,1,2}",
+      "term_value": 27.0
+    },
+    {
+      "n": 15,
+      "partition": "4+4+3+2+1+1",
+      "partition_type": "{2,1,1,2}",
+      "term_value": 20.0
+    },
+    {
+      "n": 15,
+      "partition": "8+3+2+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 230.0
+    },
+    {
+      "n": 15,
+      "partition": "7+4+2+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 192.0
+    },
+    {
+      "n": 15,
+      "partition": "6+5+2+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 180.0
+    },
+    {
+      "n": 15,
+      "partition": "11+2+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 1842.0
+    },
+    {
+      "n": 15,
+      "partition": "4+3+3+3+1+1",
+      "partition_type": "{1,3,2}",
+      "term_value": 16.0
+    },
+    {
+      "n": 15,
+      "partition": "7+3+3+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 144.0
+    },
+    {
+      "n": 15,
+      "partition": "6+4+3+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 160.0
+    },
+    {
+      "n": 15,
+      "partition": "5+5+3+1+1",
+      "partition_type": "{2,1,2}",
+      "term_value": 90.0
+    },
+    {
+      "n": 15,
+      "partition": "10+3+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 1438.0
+    },
+    {
+      "n": 15,
+      "partition": "5+4+4+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 90.0
+    },
+    {
+      "n": 15,
+      "partition": "9+4+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 1144.0
+    },
+    {
+      "n": 15,
+      "partition": "8+5+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 1035.0
+    },
+    {
+      "n": 15,
+      "partition": "7+6+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 960.0
+    },
+    {
+      "n": 15,
+      "partition": "13+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 12486.0
+    },
+    {
+      "n": 15,
+      "partition": "2+2+2+2+2+2+2+1",
+      "partition_type": "{7,1}",
+      "term_value": 1.0
+    },
+    {
+      "n": 15,
+      "partition": "4+2+2+2+2+2+1",
+      "partition_type": "{1,5,1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 15,
+      "partition": "3+3+2+2+2+2+1",
+      "partition_type": "{2,4,1}",
+      "term_value": 3.0
+    },
+    {
+      "n": 15,
+      "partition": "6+2+2+2+2+1",
+      "partition_type": "{1,4,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 15,
+      "partition": "5+3+2+2+2+1",
+      "partition_type": "{1,1,3,1}",
+      "term_value": 18.0
+    },
+    {
+      "n": 15,
+      "partition": "4+4+2+2+2+1",
+      "partition_type": "{2,3,1}",
+      "term_value": 10.0
+    },
+    {
+      "n": 15,
+      "partition": "8+2+2+2+1",
+      "partition_type": "{1,3,1}",
+      "term_value": 115.0
+    },
+    {
+      "n": 15,
+      "partition": "4+3+3+2+2+1",
+      "partition_type": "{1,2,2,1}",
+      "term_value": 12.0
+    },
+    {
+      "n": 15,
+      "partition": "7+3+2+2+1",
+      "partition_type": "{1,1,2,1}",
+      "term_value": 96.0
+    },
+    {
+      "n": 15,
+      "partition": "6+4+2+2+1",
+      "partition_type": "{1,1,2,1}",
+      "term_value": 80.0
+    },
+    {
+      "n": 15,
+      "partition": "5+5+2+2+1",
+      "partition_type": "{2,2,1}",
+      "term_value": 45.0
+    },
+    {
+      "n": 15,
+      "partition": "10+2+2+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 719.0
+    },
+    {
+      "n": 15,
+      "partition": "3+3+3+3+2+1",
+      "partition_type": "{4,1,1}",
+      "term_value": 5.0
+    },
+    {
+      "n": 15,
+      "partition": "6+3+3+2+1",
+      "partition_type": "{1,2,1,1}",
+      "term_value": 60.0
+    },
+    {
+      "n": 15,
+      "partition": "5+4+3+2+1",
+      "partition_type": "{1,1,1,1,1}",
+      "term_value": 72.0
+    },
+    {
+      "n": 15,
+      "partition": "9+3+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 572.0
+    },
+    {
+      "n": 15,
+      "partition": "4+4+4+2+1",
+      "partition_type": "{3,1,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 15,
+      "partition": "8+4+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 460.0
+    },
+    {
+      "n": 15,
+      "partition": "7+5+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 432.0
+    },
+    {
+      "n": 15,
+      "partition": "6+6+2+1",
+      "partition_type": "{2,1,1}",
+      "term_value": 210.0
+    },
+    {
+      "n": 15,
+      "partition": "12+2+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 4766.0
+    },
+    {
+      "n": 15,
+      "partition": "5+3+3+3+1",
+      "partition_type": "{1,3,1}",
+      "term_value": 36.0
+    },
+    {
+      "n": 15,
+      "partition": "4+4+3+3+1",
+      "partition_type": "{2,2,1}",
+      "term_value": 30.0
+    },
+    {
+      "n": 15,
+      "partition": "8+3+3+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 345.0
+    },
+    {
+      "n": 15,
+      "partition": "7+4+3+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 384.0
+    },
+    {
+      "n": 15,
+      "partition": "6+5+3+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 360.0
+    },
+    {
+      "n": 15,
+      "partition": "11+3+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 3684.0
+    },
+    {
+      "n": 15,
+      "partition": "6+4+4+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 200.0
+    },
+    {
+      "n": 15,
+      "partition": "5+5+4+1",
+      "partition_type": "{2,1,1}",
+      "term_value": 180.0
+    },
+    {
+      "n": 15,
+      "partition": "10+4+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 2876.0
+    },
+    {
+      "n": 15,
+      "partition": "9+5+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 2574.0
+    },
+    {
+      "n": 15,
+      "partition": "8+6+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 2300.0
+    },
+    {
+      "n": 15,
+      "partition": "7+7+1",
+      "partition_type": "{2,1}",
+      "term_value": 1176.0
+    },
+    {
+      "n": 15,
+      "partition": "14+1",
+      "partition_type": "{1,1}",
+      "term_value": 32973.0
+    },
+    {
+      "n": 15,
+      "partition": "3+2+2+2+2+2+2",
+      "partition_type": "{1,6}",
+      "term_value": 2.0
+    },
+    {
+      "n": 15,
+      "partition": "5+2+2+2+2+2",
+      "partition_type": "{1,5}",
+      "term_value": 9.0
+    },
+    {
+      "n": 15,
+      "partition": "4+3+2+2+2+2",
+      "partition_type": "{1,1,4}",
+      "term_value": 8.0
+    },
+    {
+      "n": 15,
+      "partition": "7+2+2+2+2",
+      "partition_type": "{1,4}",
+      "term_value": 48.0
+    },
+    {
+      "n": 15,
+      "partition": "3+3+3+2+2+2",
+      "partition_type": "{3,3}",
+      "term_value": 4.0
+    },
+    {
+      "n": 15,
+      "partition": "6+3+2+2+2",
+      "partition_type": "{1,1,3}",
+      "term_value": 40.0
+    },
+    {
+      "n": 15,
+      "partition": "5+4+2+2+2",
+      "partition_type": "{1,1,3}",
+      "term_value": 36.0
+    },
+    {
+      "n": 15,
+      "partition": "9+2+2+2",
+      "partition_type": "{1,3}",
+      "term_value": 286.0
+    },
+    {
+      "n": 15,
+      "partition": "5+3+3+2+2",
+      "partition_type": "{1,2,2}",
+      "term_value": 27.0
+    },
+    {
+      "n": 15,
+      "partition": "4+4+3+2+2",
+      "partition_type": "{2,1,2}",
+      "term_value": 20.0
+    },
+    {
+      "n": 15,
+      "partition": "8+3+2+2",
+      "partition_type": "{1,1,2}",
+      "term_value": 230.0
+    },
+    {
+      "n": 15,
+      "partition": "7+4+2+2",
+      "partition_type": "{1,1,2}",
+      "term_value": 192.0
+    },
+    {
+      "n": 15,
+      "partition": "6+5+2+2",
+      "partition_type": "{1,1,2}",
+      "term_value": 180.0
+    },
+    {
+      "n": 15,
+      "partition": "11+2+2",
+      "partition_type": "{1,2}",
+      "term_value": 1842.0
+    },
+    {
+      "n": 15,
+      "partition": "4+3+3+3+2",
+      "partition_type": "{1,3,1}",
+      "term_value": 16.0
+    },
+    {
+      "n": 15,
+      "partition": "7+3+3+2",
+      "partition_type": "{1,2,1}",
+      "term_value": 144.0
+    },
+    {
+      "n": 15,
+      "partition": "6+4+3+2",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 160.0
+    },
+    {
+      "n": 15,
+      "partition": "5+5+3+2",
+      "partition_type": "{2,1,1}",
+      "term_value": 90.0
+    },
+    {
+      "n": 15,
+      "partition": "10+3+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 1438.0
+    },
+    {
+      "n": 15,
+      "partition": "5+4+4+2",
+      "partition_type": "{1,2,1}",
+      "term_value": 90.0
+    },
+    {
+      "n": 15,
+      "partition": "9+4+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 1144.0
+    },
+    {
+      "n": 15,
+      "partition": "8+5+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 1035.0
+    },
+    {
+      "n": 15,
+      "partition": "7+6+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 960.0
+    },
+    {
+      "n": 15,
+      "partition": "13+2",
+      "partition_type": "{1,1}",
+      "term_value": 12486.0
+    },
+    {
+      "n": 15,
+      "partition": "3+3+3+3+3",
+      "partition_type": "{5}",
+      "term_value": 6.0
+    },
+    {
+      "n": 15,
+      "partition": "6+3+3+3",
+      "partition_type": "{1,3}",
+      "term_value": 80.0
+    },
+    {
+      "n": 15,
+      "partition": "5+4+3+3",
+      "partition_type": "{1,1,2}",
+      "term_value": 108.0
+    },
+    {
+      "n": 15,
+      "partition": "9+3+3",
+      "partition_type": "{1,2}",
+      "term_value": 858.0
+    },
+    {
+      "n": 15,
+      "partition": "4+4+4+3",
+      "partition_type": "{3,1}",
+      "term_value": 40.0
+    },
+    {
+      "n": 15,
+      "partition": "8+4+3",
+      "partition_type": "{1,1,1}",
+      "term_value": 920.0
+    },
+    {
+      "n": 15,
+      "partition": "7+5+3",
+      "partition_type": "{1,1,1}",
+      "term_value": 864.0
+    },
+    {
+      "n": 15,
+      "partition": "6+6+3",
+      "partition_type": "{2,1}",
+      "term_value": 420.0
+    },
+    {
+      "n": 15,
+      "partition": "12+3",
+      "partition_type": "{1,1}",
+      "term_value": 9532.0
+    },
+    {
+      "n": 15,
+      "partition": "7+4+4",
+      "partition_type": "{1,2}",
+      "term_value": 480.0
+    },
+    {
+      "n": 15,
+      "partition": "6+5+4",
+      "partition_type": "{1,1,1}",
+      "term_value": 720.0
+    },
+    {
+      "n": 15,
+      "partition": "11+4",
+      "partition_type": "{1,1}",
+      "term_value": 7368.0
+    },
+    {
+      "n": 15,
+      "partition": "5+5+5",
+      "partition_type": "{3}",
+      "term_value": 165.0
+    },
+    {
+      "n": 15,
+      "partition": "10+5",
+      "partition_type": "{1,1}",
+      "term_value": 6471.0
+    },
+    {
+      "n": 15,
+      "partition": "9+6",
+      "partition_type": "{1,1}",
+      "term_value": 5720.0
+    },
+    {
+      "n": 15,
+      "partition": "8+7",
+      "partition_type": "{1,1}",
+      "term_value": 5520.0
+    },
+    {
+      "n": 15,
+      "partition": "15",
+      "partition_type": "{1}",
+      "term_value": 87811.0
+    },
+    {
+      "n": 16,
+      "partition": "1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{16}",
+      "term_value": 1.0
+    },
+    {
+      "n": 16,
+      "partition": "2+1+1+1+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,14}",
+      "term_value": 1.0
+    },
+    {
+      "n": 16,
+      "partition": "3+1+1+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,13}",
+      "term_value": 2.0
+    },
+    {
+      "n": 16,
+      "partition": "2+2+1+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{2,12}",
+      "term_value": 1.0
+    },
+    {
+      "n": 16,
+      "partition": "4+1+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,12}",
+      "term_value": 4.0
+    },
+    {
+      "n": 16,
+      "partition": "3+2+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,11}",
+      "term_value": 2.0
+    },
+    {
+      "n": 16,
+      "partition": "5+1+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,11}",
+      "term_value": 9.0
+    },
+    {
+      "n": 16,
+      "partition": "2+2+2+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{3,10}",
+      "term_value": 1.0
+    },
+    {
+      "n": 16,
+      "partition": "4+2+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,10}",
+      "term_value": 4.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{2,10}",
+      "term_value": 3.0
+    },
+    {
+      "n": 16,
+      "partition": "6+1+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,10}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "3+2+2+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,2,9}",
+      "term_value": 2.0
+    },
+    {
+      "n": 16,
+      "partition": "5+2+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,9}",
+      "term_value": 9.0
+    },
+    {
+      "n": 16,
+      "partition": "4+3+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,9}",
+      "term_value": 8.0
+    },
+    {
+      "n": 16,
+      "partition": "7+1+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,9}",
+      "term_value": 48.0
+    },
+    {
+      "n": 16,
+      "partition": "2+2+2+2+1+1+1+1+1+1+1+1",
+      "partition_type": "{4,8}",
+      "term_value": 1.0
+    },
+    {
+      "n": 16,
+      "partition": "4+2+2+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,2,8}",
+      "term_value": 4.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+2+1+1+1+1+1+1+1+1",
+      "partition_type": "{2,1,8}",
+      "term_value": 3.0
+    },
+    {
+      "n": 16,
+      "partition": "6+2+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,8}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "5+3+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,8}",
+      "term_value": 18.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+1+1+1+1+1+1+1+1",
+      "partition_type": "{2,8}",
+      "term_value": 10.0
+    },
+    {
+      "n": 16,
+      "partition": "8+1+1+1+1+1+1+1+1",
+      "partition_type": "{1,8}",
+      "term_value": 115.0
+    },
+    {
+      "n": 16,
+      "partition": "3+2+2+2+1+1+1+1+1+1+1",
+      "partition_type": "{1,3,7}",
+      "term_value": 2.0
+    },
+    {
+      "n": 16,
+      "partition": "5+2+2+1+1+1+1+1+1+1",
+      "partition_type": "{1,2,7}",
+      "term_value": 9.0
+    },
+    {
+      "n": 16,
+      "partition": "4+3+2+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,1,7}",
+      "term_value": 8.0
+    },
+    {
+      "n": 16,
+      "partition": "7+2+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,7}",
+      "term_value": 48.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+3+1+1+1+1+1+1+1",
+      "partition_type": "{3,7}",
+      "term_value": 4.0
+    },
+    {
+      "n": 16,
+      "partition": "6+3+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,7}",
+      "term_value": 40.0
+    },
+    {
+      "n": 16,
+      "partition": "5+4+1+1+1+1+1+1+1",
+      "partition_type": "{1,1,7}",
+      "term_value": 36.0
+    },
+    {
+      "n": 16,
+      "partition": "9+1+1+1+1+1+1+1",
+      "partition_type": "{1,7}",
+      "term_value": 286.0
+    },
+    {
+      "n": 16,
+      "partition": "2+2+2+2+2+1+1+1+1+1+1",
+      "partition_type": "{5,6}",
+      "term_value": 1.0
+    },
+    {
+      "n": 16,
+      "partition": "4+2+2+2+1+1+1+1+1+1",
+      "partition_type": "{1,3,6}",
+      "term_value": 4.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+2+2+1+1+1+1+1+1",
+      "partition_type": "{2,2,6}",
+      "term_value": 3.0
+    },
+    {
+      "n": 16,
+      "partition": "6+2+2+1+1+1+1+1+1",
+      "partition_type": "{1,2,6}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "5+3+2+1+1+1+1+1+1",
+      "partition_type": "{1,1,1,6}",
+      "term_value": 18.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+2+1+1+1+1+1+1",
+      "partition_type": "{2,1,6}",
+      "term_value": 10.0
+    },
+    {
+      "n": 16,
+      "partition": "8+2+1+1+1+1+1+1",
+      "partition_type": "{1,1,6}",
+      "term_value": 115.0
+    },
+    {
+      "n": 16,
+      "partition": "4+3+3+1+1+1+1+1+1",
+      "partition_type": "{1,2,6}",
+      "term_value": 12.0
+    },
+    {
+      "n": 16,
+      "partition": "7+3+1+1+1+1+1+1",
+      "partition_type": "{1,1,6}",
+      "term_value": 96.0
+    },
+    {
+      "n": 16,
+      "partition": "6+4+1+1+1+1+1+1",
+      "partition_type": "{1,1,6}",
+      "term_value": 80.0
+    },
+    {
+      "n": 16,
+      "partition": "5+5+1+1+1+1+1+1",
+      "partition_type": "{2,6}",
+      "term_value": 45.0
+    },
+    {
+      "n": 16,
+      "partition": "10+1+1+1+1+1+1",
+      "partition_type": "{1,6}",
+      "term_value": 719.0
+    },
+    {
+      "n": 16,
+      "partition": "3+2+2+2+2+1+1+1+1+1",
+      "partition_type": "{1,4,5}",
+      "term_value": 2.0
+    },
+    {
+      "n": 16,
+      "partition": "5+2+2+2+1+1+1+1+1",
+      "partition_type": "{1,3,5}",
+      "term_value": 9.0
+    },
+    {
+      "n": 16,
+      "partition": "4+3+2+2+1+1+1+1+1",
+      "partition_type": "{1,1,2,5}",
+      "term_value": 8.0
+    },
+    {
+      "n": 16,
+      "partition": "7+2+2+1+1+1+1+1",
+      "partition_type": "{1,2,5}",
+      "term_value": 48.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+3+2+1+1+1+1+1",
+      "partition_type": "{3,1,5}",
+      "term_value": 4.0
+    },
+    {
+      "n": 16,
+      "partition": "6+3+2+1+1+1+1+1",
+      "partition_type": "{1,1,1,5}",
+      "term_value": 40.0
+    },
+    {
+      "n": 16,
+      "partition": "5+4+2+1+1+1+1+1",
+      "partition_type": "{1,1,1,5}",
+      "term_value": 36.0
+    },
+    {
+      "n": 16,
+      "partition": "9+2+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 286.0
+    },
+    {
+      "n": 16,
+      "partition": "5+3+3+1+1+1+1+1",
+      "partition_type": "{1,2,5}",
+      "term_value": 27.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+3+1+1+1+1+1",
+      "partition_type": "{2,1,5}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "8+3+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 230.0
+    },
+    {
+      "n": 16,
+      "partition": "7+4+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 192.0
+    },
+    {
+      "n": 16,
+      "partition": "6+5+1+1+1+1+1",
+      "partition_type": "{1,1,5}",
+      "term_value": 180.0
+    },
+    {
+      "n": 16,
+      "partition": "11+1+1+1+1+1",
+      "partition_type": "{1,5}",
+      "term_value": 1842.0
+    },
+    {
+      "n": 16,
+      "partition": "2+2+2+2+2+2+1+1+1+1",
+      "partition_type": "{6,4}",
+      "term_value": 1.0
+    },
+    {
+      "n": 16,
+      "partition": "4+2+2+2+2+1+1+1+1",
+      "partition_type": "{1,4,4}",
+      "term_value": 4.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+2+2+2+1+1+1+1",
+      "partition_type": "{2,3,4}",
+      "term_value": 3.0
+    },
+    {
+      "n": 16,
+      "partition": "6+2+2+2+1+1+1+1",
+      "partition_type": "{1,3,4}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "5+3+2+2+1+1+1+1",
+      "partition_type": "{1,1,2,4}",
+      "term_value": 18.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+2+2+1+1+1+1",
+      "partition_type": "{2,2,4}",
+      "term_value": 10.0
+    },
+    {
+      "n": 16,
+      "partition": "8+2+2+1+1+1+1",
+      "partition_type": "{1,2,4}",
+      "term_value": 115.0
+    },
+    {
+      "n": 16,
+      "partition": "4+3+3+2+1+1+1+1",
+      "partition_type": "{1,2,1,4}",
+      "term_value": 12.0
+    },
+    {
+      "n": 16,
+      "partition": "7+3+2+1+1+1+1",
+      "partition_type": "{1,1,1,4}",
+      "term_value": 96.0
+    },
+    {
+      "n": 16,
+      "partition": "6+4+2+1+1+1+1",
+      "partition_type": "{1,1,1,4}",
+      "term_value": 80.0
+    },
+    {
+      "n": 16,
+      "partition": "5+5+2+1+1+1+1",
+      "partition_type": "{2,1,4}",
+      "term_value": 45.0
+    },
+    {
+      "n": 16,
+      "partition": "10+2+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 719.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+3+3+1+1+1+1",
+      "partition_type": "{4,4}",
+      "term_value": 5.0
+    },
+    {
+      "n": 16,
+      "partition": "6+3+3+1+1+1+1",
+      "partition_type": "{1,2,4}",
+      "term_value": 60.0
+    },
+    {
+      "n": 16,
+      "partition": "5+4+3+1+1+1+1",
+      "partition_type": "{1,1,1,4}",
+      "term_value": 72.0
+    },
+    {
+      "n": 16,
+      "partition": "9+3+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 572.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+4+1+1+1+1",
+      "partition_type": "{3,4}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "8+4+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 460.0
+    },
+    {
+      "n": 16,
+      "partition": "7+5+1+1+1+1",
+      "partition_type": "{1,1,4}",
+      "term_value": 432.0
+    },
+    {
+      "n": 16,
+      "partition": "6+6+1+1+1+1",
+      "partition_type": "{2,4}",
+      "term_value": 210.0
+    },
+    {
+      "n": 16,
+      "partition": "12+1+1+1+1",
+      "partition_type": "{1,4}",
+      "term_value": 4766.0
+    },
+    {
+      "n": 16,
+      "partition": "3+2+2+2+2+2+1+1+1",
+      "partition_type": "{1,5,3}",
+      "term_value": 2.0
+    },
+    {
+      "n": 16,
+      "partition": "5+2+2+2+2+1+1+1",
+      "partition_type": "{1,4,3}",
+      "term_value": 9.0
+    },
+    {
+      "n": 16,
+      "partition": "4+3+2+2+2+1+1+1",
+      "partition_type": "{1,1,3,3}",
+      "term_value": 8.0
+    },
+    {
+      "n": 16,
+      "partition": "7+2+2+2+1+1+1",
+      "partition_type": "{1,3,3}",
+      "term_value": 48.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+3+2+2+1+1+1",
+      "partition_type": "{3,2,3}",
+      "term_value": 4.0
+    },
+    {
+      "n": 16,
+      "partition": "6+3+2+2+1+1+1",
+      "partition_type": "{1,1,2,3}",
+      "term_value": 40.0
+    },
+    {
+      "n": 16,
+      "partition": "5+4+2+2+1+1+1",
+      "partition_type": "{1,1,2,3}",
+      "term_value": 36.0
+    },
+    {
+      "n": 16,
+      "partition": "9+2+2+1+1+1",
+      "partition_type": "{1,2,3}",
+      "term_value": 286.0
+    },
+    {
+      "n": 16,
+      "partition": "5+3+3+2+1+1+1",
+      "partition_type": "{1,2,1,3}",
+      "term_value": 27.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+3+2+1+1+1",
+      "partition_type": "{2,1,1,3}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "8+3+2+1+1+1",
+      "partition_type": "{1,1,1,3}",
+      "term_value": 230.0
+    },
+    {
+      "n": 16,
+      "partition": "7+4+2+1+1+1",
+      "partition_type": "{1,1,1,3}",
+      "term_value": 192.0
+    },
+    {
+      "n": 16,
+      "partition": "6+5+2+1+1+1",
+      "partition_type": "{1,1,1,3}",
+      "term_value": 180.0
+    },
+    {
+      "n": 16,
+      "partition": "11+2+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 1842.0
+    },
+    {
+      "n": 16,
+      "partition": "4+3+3+3+1+1+1",
+      "partition_type": "{1,3,3}",
+      "term_value": 16.0
+    },
+    {
+      "n": 16,
+      "partition": "7+3+3+1+1+1",
+      "partition_type": "{1,2,3}",
+      "term_value": 144.0
+    },
+    {
+      "n": 16,
+      "partition": "6+4+3+1+1+1",
+      "partition_type": "{1,1,1,3}",
+      "term_value": 160.0
+    },
+    {
+      "n": 16,
+      "partition": "5+5+3+1+1+1",
+      "partition_type": "{2,1,3}",
+      "term_value": 90.0
+    },
+    {
+      "n": 16,
+      "partition": "10+3+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 1438.0
+    },
+    {
+      "n": 16,
+      "partition": "5+4+4+1+1+1",
+      "partition_type": "{1,2,3}",
+      "term_value": 90.0
+    },
+    {
+      "n": 16,
+      "partition": "9+4+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 1144.0
+    },
+    {
+      "n": 16,
+      "partition": "8+5+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 1035.0
+    },
+    {
+      "n": 16,
+      "partition": "7+6+1+1+1",
+      "partition_type": "{1,1,3}",
+      "term_value": 960.0
+    },
+    {
+      "n": 16,
+      "partition": "13+1+1+1",
+      "partition_type": "{1,3}",
+      "term_value": 12486.0
+    },
+    {
+      "n": 16,
+      "partition": "2+2+2+2+2+2+2+1+1",
+      "partition_type": "{7,2}",
+      "term_value": 1.0
+    },
+    {
+      "n": 16,
+      "partition": "4+2+2+2+2+2+1+1",
+      "partition_type": "{1,5,2}",
+      "term_value": 4.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+2+2+2+2+1+1",
+      "partition_type": "{2,4,2}",
+      "term_value": 3.0
+    },
+    {
+      "n": 16,
+      "partition": "6+2+2+2+2+1+1",
+      "partition_type": "{1,4,2}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "5+3+2+2+2+1+1",
+      "partition_type": "{1,1,3,2}",
+      "term_value": 18.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+2+2+2+1+1",
+      "partition_type": "{2,3,2}",
+      "term_value": 10.0
+    },
+    {
+      "n": 16,
+      "partition": "8+2+2+2+1+1",
+      "partition_type": "{1,3,2}",
+      "term_value": 115.0
+    },
+    {
+      "n": 16,
+      "partition": "4+3+3+2+2+1+1",
+      "partition_type": "{1,2,2,2}",
+      "term_value": 12.0
+    },
+    {
+      "n": 16,
+      "partition": "7+3+2+2+1+1",
+      "partition_type": "{1,1,2,2}",
+      "term_value": 96.0
+    },
+    {
+      "n": 16,
+      "partition": "6+4+2+2+1+1",
+      "partition_type": "{1,1,2,2}",
+      "term_value": 80.0
+    },
+    {
+      "n": 16,
+      "partition": "5+5+2+2+1+1",
+      "partition_type": "{2,2,2}",
+      "term_value": 45.0
+    },
+    {
+      "n": 16,
+      "partition": "10+2+2+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 719.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+3+3+2+1+1",
+      "partition_type": "{4,1,2}",
+      "term_value": 5.0
+    },
+    {
+      "n": 16,
+      "partition": "6+3+3+2+1+1",
+      "partition_type": "{1,2,1,2}",
+      "term_value": 60.0
+    },
+    {
+      "n": 16,
+      "partition": "5+4+3+2+1+1",
+      "partition_type": "{1,1,1,1,2}",
+      "term_value": 72.0
+    },
+    {
+      "n": 16,
+      "partition": "9+3+2+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 572.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+4+2+1+1",
+      "partition_type": "{3,1,2}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "8+4+2+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 460.0
+    },
+    {
+      "n": 16,
+      "partition": "7+5+2+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 432.0
+    },
+    {
+      "n": 16,
+      "partition": "6+6+2+1+1",
+      "partition_type": "{2,1,2}",
+      "term_value": 210.0
+    },
+    {
+      "n": 16,
+      "partition": "12+2+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 4766.0
+    },
+    {
+      "n": 16,
+      "partition": "5+3+3+3+1+1",
+      "partition_type": "{1,3,2}",
+      "term_value": 36.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+3+3+1+1",
+      "partition_type": "{2,2,2}",
+      "term_value": 30.0
+    },
+    {
+      "n": 16,
+      "partition": "8+3+3+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 345.0
+    },
+    {
+      "n": 16,
+      "partition": "7+4+3+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 384.0
+    },
+    {
+      "n": 16,
+      "partition": "6+5+3+1+1",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 360.0
+    },
+    {
+      "n": 16,
+      "partition": "11+3+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 3684.0
+    },
+    {
+      "n": 16,
+      "partition": "6+4+4+1+1",
+      "partition_type": "{1,2,2}",
+      "term_value": 200.0
+    },
+    {
+      "n": 16,
+      "partition": "5+5+4+1+1",
+      "partition_type": "{2,1,2}",
+      "term_value": 180.0
+    },
+    {
+      "n": 16,
+      "partition": "10+4+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 2876.0
+    },
+    {
+      "n": 16,
+      "partition": "9+5+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 2574.0
+    },
+    {
+      "n": 16,
+      "partition": "8+6+1+1",
+      "partition_type": "{1,1,2}",
+      "term_value": 2300.0
+    },
+    {
+      "n": 16,
+      "partition": "7+7+1+1",
+      "partition_type": "{2,2}",
+      "term_value": 1176.0
+    },
+    {
+      "n": 16,
+      "partition": "14+1+1",
+      "partition_type": "{1,2}",
+      "term_value": 32973.0
+    },
+    {
+      "n": 16,
+      "partition": "3+2+2+2+2+2+2+1",
+      "partition_type": "{1,6,1}",
+      "term_value": 2.0
+    },
+    {
+      "n": 16,
+      "partition": "5+2+2+2+2+2+1",
+      "partition_type": "{1,5,1}",
+      "term_value": 9.0
+    },
+    {
+      "n": 16,
+      "partition": "4+3+2+2+2+2+1",
+      "partition_type": "{1,1,4,1}",
+      "term_value": 8.0
+    },
+    {
+      "n": 16,
+      "partition": "7+2+2+2+2+1",
+      "partition_type": "{1,4,1}",
+      "term_value": 48.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+3+2+2+2+1",
+      "partition_type": "{3,3,1}",
+      "term_value": 4.0
+    },
+    {
+      "n": 16,
+      "partition": "6+3+2+2+2+1",
+      "partition_type": "{1,1,3,1}",
+      "term_value": 40.0
+    },
+    {
+      "n": 16,
+      "partition": "5+4+2+2+2+1",
+      "partition_type": "{1,1,3,1}",
+      "term_value": 36.0
+    },
+    {
+      "n": 16,
+      "partition": "9+2+2+2+1",
+      "partition_type": "{1,3,1}",
+      "term_value": 286.0
+    },
+    {
+      "n": 16,
+      "partition": "5+3+3+2+2+1",
+      "partition_type": "{1,2,2,1}",
+      "term_value": 27.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+3+2+2+1",
+      "partition_type": "{2,1,2,1}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "8+3+2+2+1",
+      "partition_type": "{1,1,2,1}",
+      "term_value": 230.0
+    },
+    {
+      "n": 16,
+      "partition": "7+4+2+2+1",
+      "partition_type": "{1,1,2,1}",
+      "term_value": 192.0
+    },
+    {
+      "n": 16,
+      "partition": "6+5+2+2+1",
+      "partition_type": "{1,1,2,1}",
+      "term_value": 180.0
+    },
+    {
+      "n": 16,
+      "partition": "11+2+2+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 1842.0
+    },
+    {
+      "n": 16,
+      "partition": "4+3+3+3+2+1",
+      "partition_type": "{1,3,1,1}",
+      "term_value": 16.0
+    },
+    {
+      "n": 16,
+      "partition": "7+3+3+2+1",
+      "partition_type": "{1,2,1,1}",
+      "term_value": 144.0
+    },
+    {
+      "n": 16,
+      "partition": "6+4+3+2+1",
+      "partition_type": "{1,1,1,1,1}",
+      "term_value": 160.0
+    },
+    {
+      "n": 16,
+      "partition": "5+5+3+2+1",
+      "partition_type": "{2,1,1,1}",
+      "term_value": 90.0
+    },
+    {
+      "n": 16,
+      "partition": "10+3+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 1438.0
+    },
+    {
+      "n": 16,
+      "partition": "5+4+4+2+1",
+      "partition_type": "{1,2,1,1}",
+      "term_value": 90.0
+    },
+    {
+      "n": 16,
+      "partition": "9+4+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 1144.0
+    },
+    {
+      "n": 16,
+      "partition": "8+5+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 1035.0
+    },
+    {
+      "n": 16,
+      "partition": "7+6+2+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 960.0
+    },
+    {
+      "n": 16,
+      "partition": "13+2+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 12486.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+3+3+3+1",
+      "partition_type": "{5,1}",
+      "term_value": 6.0
+    },
+    {
+      "n": 16,
+      "partition": "6+3+3+3+1",
+      "partition_type": "{1,3,1}",
+      "term_value": 80.0
+    },
+    {
+      "n": 16,
+      "partition": "5+4+3+3+1",
+      "partition_type": "{1,1,2,1}",
+      "term_value": 108.0
+    },
+    {
+      "n": 16,
+      "partition": "9+3+3+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 858.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+4+3+1",
+      "partition_type": "{3,1,1}",
+      "term_value": 40.0
+    },
+    {
+      "n": 16,
+      "partition": "8+4+3+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 920.0
+    },
+    {
+      "n": 16,
+      "partition": "7+5+3+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 864.0
+    },
+    {
+      "n": 16,
+      "partition": "6+6+3+1",
+      "partition_type": "{2,1,1}",
+      "term_value": 420.0
+    },
+    {
+      "n": 16,
+      "partition": "12+3+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 9532.0
+    },
+    {
+      "n": 16,
+      "partition": "7+4+4+1",
+      "partition_type": "{1,2,1}",
+      "term_value": 480.0
+    },
+    {
+      "n": 16,
+      "partition": "6+5+4+1",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 720.0
+    },
+    {
+      "n": 16,
+      "partition": "11+4+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 7368.0
+    },
+    {
+      "n": 16,
+      "partition": "5+5+5+1",
+      "partition_type": "{3,1}",
+      "term_value": 165.0
+    },
+    {
+      "n": 16,
+      "partition": "10+5+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 6471.0
+    },
+    {
+      "n": 16,
+      "partition": "9+6+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 5720.0
+    },
+    {
+      "n": 16,
+      "partition": "8+7+1",
+      "partition_type": "{1,1,1}",
+      "term_value": 5520.0
+    },
+    {
+      "n": 16,
+      "partition": "15+1",
+      "partition_type": "{1,1}",
+      "term_value": 87811.0
+    },
+    {
+      "n": 16,
+      "partition": "2+2+2+2+2+2+2+2",
+      "partition_type": "{8}",
+      "term_value": 1.0
+    },
+    {
+      "n": 16,
+      "partition": "4+2+2+2+2+2+2",
+      "partition_type": "{1,6}",
+      "term_value": 4.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+2+2+2+2+2",
+      "partition_type": "{2,5}",
+      "term_value": 3.0
+    },
+    {
+      "n": 16,
+      "partition": "6+2+2+2+2+2",
+      "partition_type": "{1,5}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "5+3+2+2+2+2",
+      "partition_type": "{1,1,4}",
+      "term_value": 18.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+2+2+2+2",
+      "partition_type": "{2,4}",
+      "term_value": 10.0
+    },
+    {
+      "n": 16,
+      "partition": "8+2+2+2+2",
+      "partition_type": "{1,4}",
+      "term_value": 115.0
+    },
+    {
+      "n": 16,
+      "partition": "4+3+3+2+2+2",
+      "partition_type": "{1,2,3}",
+      "term_value": 12.0
+    },
+    {
+      "n": 16,
+      "partition": "7+3+2+2+2",
+      "partition_type": "{1,1,3}",
+      "term_value": 96.0
+    },
+    {
+      "n": 16,
+      "partition": "6+4+2+2+2",
+      "partition_type": "{1,1,3}",
+      "term_value": 80.0
+    },
+    {
+      "n": 16,
+      "partition": "5+5+2+2+2",
+      "partition_type": "{2,3}",
+      "term_value": 45.0
+    },
+    {
+      "n": 16,
+      "partition": "10+2+2+2",
+      "partition_type": "{1,3}",
+      "term_value": 719.0
+    },
+    {
+      "n": 16,
+      "partition": "3+3+3+3+2+2",
+      "partition_type": "{4,2}",
+      "term_value": 5.0
+    },
+    {
+      "n": 16,
+      "partition": "6+3+3+2+2",
+      "partition_type": "{1,2,2}",
+      "term_value": 60.0
+    },
+    {
+      "n": 16,
+      "partition": "5+4+3+2+2",
+      "partition_type": "{1,1,1,2}",
+      "term_value": 72.0
+    },
+    {
+      "n": 16,
+      "partition": "9+3+2+2",
+      "partition_type": "{1,1,2}",
+      "term_value": 572.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+4+2+2",
+      "partition_type": "{3,2}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "8+4+2+2",
+      "partition_type": "{1,1,2}",
+      "term_value": 460.0
+    },
+    {
+      "n": 16,
+      "partition": "7+5+2+2",
+      "partition_type": "{1,1,2}",
+      "term_value": 432.0
+    },
+    {
+      "n": 16,
+      "partition": "6+6+2+2",
+      "partition_type": "{2,2}",
+      "term_value": 210.0
+    },
+    {
+      "n": 16,
+      "partition": "12+2+2",
+      "partition_type": "{1,2}",
+      "term_value": 4766.0
+    },
+    {
+      "n": 16,
+      "partition": "5+3+3+3+2",
+      "partition_type": "{1,3,1}",
+      "term_value": 36.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+3+3+2",
+      "partition_type": "{2,2,1}",
+      "term_value": 30.0
+    },
+    {
+      "n": 16,
+      "partition": "8+3+3+2",
+      "partition_type": "{1,2,1}",
+      "term_value": 345.0
+    },
+    {
+      "n": 16,
+      "partition": "7+4+3+2",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 384.0
+    },
+    {
+      "n": 16,
+      "partition": "6+5+3+2",
+      "partition_type": "{1,1,1,1}",
+      "term_value": 360.0
+    },
+    {
+      "n": 16,
+      "partition": "11+3+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 3684.0
+    },
+    {
+      "n": 16,
+      "partition": "6+4+4+2",
+      "partition_type": "{1,2,1}",
+      "term_value": 200.0
+    },
+    {
+      "n": 16,
+      "partition": "5+5+4+2",
+      "partition_type": "{2,1,1}",
+      "term_value": 180.0
+    },
+    {
+      "n": 16,
+      "partition": "10+4+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 2876.0
+    },
+    {
+      "n": 16,
+      "partition": "9+5+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 2574.0
+    },
+    {
+      "n": 16,
+      "partition": "8+6+2",
+      "partition_type": "{1,1,1}",
+      "term_value": 2300.0
+    },
+    {
+      "n": 16,
+      "partition": "7+7+2",
+      "partition_type": "{2,1}",
+      "term_value": 1176.0
+    },
+    {
+      "n": 16,
+      "partition": "14+2",
+      "partition_type": "{1,1}",
+      "term_value": 32973.0
+    },
+    {
+      "n": 16,
+      "partition": "4+3+3+3+3",
+      "partition_type": "{1,4}",
+      "term_value": 20.0
+    },
+    {
+      "n": 16,
+      "partition": "7+3+3+3",
+      "partition_type": "{1,3}",
+      "term_value": 192.0
+    },
+    {
+      "n": 16,
+      "partition": "6+4+3+3",
+      "partition_type": "{1,1,2}",
+      "term_value": 240.0
+    },
+    {
+      "n": 16,
+      "partition": "5+5+3+3",
+      "partition_type": "{2,2}",
+      "term_value": 135.0
+    },
+    {
+      "n": 16,
+      "partition": "10+3+3",
+      "partition_type": "{1,2}",
+      "term_value": 2157.0
+    },
+    {
+      "n": 16,
+      "partition": "5+4+4+3",
+      "partition_type": "{1,2,1}",
+      "term_value": 180.0
+    },
+    {
+      "n": 16,
+      "partition": "9+4+3",
+      "partition_type": "{1,1,1}",
+      "term_value": 2288.0
+    },
+    {
+      "n": 16,
+      "partition": "8+5+3",
+      "partition_type": "{1,1,1}",
+      "term_value": 2070.0
+    },
+    {
+      "n": 16,
+      "partition": "7+6+3",
+      "partition_type": "{1,1,1}",
+      "term_value": 1920.0
+    },
+    {
+      "n": 16,
+      "partition": "13+3",
+      "partition_type": "{1,1}",
+      "term_value": 24972.0
+    },
+    {
+      "n": 16,
+      "partition": "4+4+4+4",
+      "partition_type": "{4}",
+      "term_value": 35.0
+    },
+    {
+      "n": 16,
+      "partition": "8+4+4",
+      "partition_type": "{1,2}",
+      "term_value": 1150.0
+    },
+    {
+      "n": 16,
+      "partition": "7+5+4",
+      "partition_type": "{1,1,1}",
+      "term_value": 1728.0
+    },
+    {
+      "n": 16,
+      "partition": "6+6+4",
+      "partition_type": "{2,1}",
+      "term_value": 840.0
+    },
+    {
+      "n": 16,
+      "partition": "12+4",
+      "partition_type": "{1,1}",
+      "term_value": 19064.0
+    },
+    {
+      "n": 16,
+      "partition": "6+5+5",
+      "partition_type": "{1,2}",
+      "term_value": 900.0
+    },
+    {
+      "n": 16,
+      "partition": "11+5",
+      "partition_type": "{1,1}",
+      "term_value": 16578.0
+    },
+    {
+      "n": 16,
+      "partition": "10+6",
+      "partition_type": "{1,1}",
+      "term_value": 14380.0
+    },
+    {
+      "n": 16,
+      "partition": "9+7",
+      "partition_type": "{1,1}",
+      "term_value": 13728.0
+    },
+    {
+      "n": 16,
+      "partition": "8+8",
+      "partition_type": "{2}",
+      "term_value": 6670.0
+    },
+    {
+      "n": 16,
+      "partition": "16",
+      "partition_type": "{1}",
+      "term_value": 235381.0
+    }
+  ],
+  "system_5_geometry": {
+    "polytope": "5-cell",
+    "aliases": [
+      "pentachoron",
+      "pentatope",
+      "4-simplex"
+    ],
+    "dimension": 4,
+    "elements": {
+      "vertices": 5,
+      "edges": 10,
+      "faces": 10,
+      "cells": 5
+    },
+    "vertices": [
+      {
+        "id": "A",
+        "label": "Cerebral",
+        "position": "top",
+        "color": "yellow"
+      },
+      {
+        "id": "B",
+        "label": "Somatic",
+        "position": "bottom-left",
+        "color": "light_blue"
+      },
+      {
+        "id": "C",
+        "label": "Autonomic",
+        "position": "bottom-right",
+        "color": "turquoise"
+      },
+      {
+        "id": "D",
+        "label": "Spinal",
+        "position": "bottom-center",
+        "color": "blue"
+      },
+      {
+        "id": "E",
+        "label": "Integration",
+        "position": "center",
+        "color": "turquoise"
+      }
+    ],
+    "cells": [
+      {
+        "id": 1,
+        "vertices": [
+          "A",
+          "B",
+          "C",
+          "E"
+        ],
+        "name": "Main Cognitive"
+      },
+      {
+        "id": 2,
+        "vertices": [
+          "A",
+          "B",
+          "D",
+          "E"
+        ],
+        "name": "Somatic Polarity"
+      },
+      {
+        "id": 3,
+        "vertices": [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        "name": "Parasympathetic"
+      },
+      {
+        "id": 4,
+        "vertices": [
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "name": "Sympathetic"
+      },
+      {
+        "id": 5,
+        "vertices": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "name": "Outer Boundary"
+      }
+    ]
+  }
+}
