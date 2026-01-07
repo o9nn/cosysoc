@@ -8,13 +8,14 @@ This repository preserves and extends the work of **Robert Campbell (1936-2021)*
 
 ## The Systems Framework
 
-| System | Centers | Terms | Key Concept | Geometric Form |
-|--------|---------|-------|-------------|----------------|
-| **1** | 1 | — | Universal wholeness, unity with sky | Point/Circle |
-| **2** | 2 | 1 | Perceptive wholeness, subjective/objective modes | Line/Dyad |
-| **3** | 4 | 4 | Four Relations: Discretion, Means, Goal, Consequence | Triangle/Triad |
-| **4** | 9 | 9 | Primary creative process, enneagram transformations | Enneagram |
-| **5** | 18 | 18 | Tetrahedral system with [[D-T]-[P-O]-[S-M]] pattern | Tetrahedron |
+| System | Nodes | Terms (A000081) | Clusters (A000055) | Key Concept | Geometric Form |
+|--------|-------|-----------------|-------------------|-------------|----------------|
+| **0** | 1 | 1 | 1 | The Void - primordial potential | Point |
+| **1** | 2 | 1 | 1 | Universal wholeness, unity with sky | Circle |
+| **2** | 3 | 2 | 1 | Perceptive wholeness, subjective/objective | Line/Dyad |
+| **3** | 4 | 4 | 2 | Four Relations: Discretion, Means, Goal, Consequence | Triangle |
+| **4** | 5 | 9 | 3 | Primary creative process, enneagram | Enneagram |
+| **5** | 6 | 20 | 6 | Pentachoron with [[D-T]-[P-O]-[S-M]] pattern | Tetrahedron |
 
 ## Repository Structure
 
@@ -61,13 +62,17 @@ Nine terms generated from five sets of four energy interfaces, represented by th
 ### System 5: Tetrahedral Integration
 A tetradic system of 4 tensor bundles, each containing a triadic system of 3 dyadic edges. The [[D-T]-[P-O]-[S-M]] pattern represents 18 services organized into triads.
 
-## Mathematical Formulations
+## Mathematical Foundation: OEIS A000081/A000055
 
-The systems can be described mathematically through:
-- **Nested shells**: Following OEIS A000081 (rooted trees)
+The systems are rigorously grounded in combinatorial mathematics:
+
+- **Term Counts (A000081)**: The number of terms at System n equals A000081(n+1), the count of rooted trees with n+1 unlabeled nodes
+- **Cluster Counts (A000055)**: Terms group into A000055(n+1) equivalence classes via the **flip transform** (re-rooting)
 - **State transitions**: Deterministic transformation matrices
 - **Energy flows**: Conservation and transformation equations
 - **Geometric symmetries**: Tetrahedral and enneagram rotations
+
+See [OEIS A000081/A000055 Paradigm](docs/OEIS_A000081_A000055_PARADIGM.md) for the complete mathematical formalization.
 
 ## Applications
 
@@ -88,7 +93,13 @@ This framework has been applied to:
 
 This work is dedicated to preserving and extending the intellectual legacy of Robert Campbell. The original diagrams are from "Fisherman's Guide: A Systems Approach to Creativity and Organization" (1985, New Science Library/Shambhala).
 
+## Related Projects
+
+- **[cosmic-sys-lib](https://github.com/o9nn/cosmic-sys-lib)**: C++ library implementing the OEIS-aligned system hierarchy with rooted tree generation, flip transform clustering, and SVG visualization
+
 ## References
 
 1. Campbell, R. (1985). *Fisherman's Guide: A Systems Approach to Creativity and Organization*. New Science Library/Shambhala.
 2. Campbell, R. *Science and Cosmic Order* (related work on cosmic systems)
+3. OEIS A000081: Number of rooted trees with n unlabeled nodes. https://oeis.org/A000081
+4. OEIS A000055: Number of unrooted trees with n unlabeled nodes. https://oeis.org/A000055

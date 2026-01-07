@@ -360,17 +360,22 @@ System 5 represents **tetrahedral integration** with 3 concurrent consciousness 
 
 ## Mathematical Relationships
 
-### OEIS A000081 Connection
+### OEIS A000081/A000055 Connection
 
-The number of terms follows the sequence of rooted trees (OEIS A000081):
+The number of terms follows OEIS A000081 (rooted trees), and clusters follow A000055 (unrooted trees):
 
-| Nests | Terms | A000081(n) | Relationship |
-|-------|-------|------------|--------------|
-| 1 | 1 | 1 | Direct |
-| 2 | 2 | 1 | Cumulative |
-| 3 | 4 | 2 | Cumulative |
-| 4 | 9 | 4 | Cumulative |
-| 5 | 20 | 9 | Cumulative |
+| System | Nodes | Terms | A000081(n+1) | Clusters | A000055(n+1) |
+|--------|-------|-------|--------------|----------|---------------|
+| 0 | 1 | 1 | 1 | 1 | 1 |
+| 1 | 2 | 1 | 1 | 1 | 1 |
+| 2 | 3 | 2 | 2 | 1 | 1 |
+| 3 | 4 | 4 | 4 | 2 | 2 |
+| 4 | 5 | 9 | 9 | 3 | 3 |
+| 5 | 6 | 20 | 20 | 6 | 6 |
+
+The **flip transform** groups rooted trees into unrooted equivalence classes. Two rooted trees are equivalent if one can be re-rooted to match the other.
+
+See [OEIS A000081/A000055 Paradigm](OEIS_A000081_A000055_PARADIGM.md) for complete details.
 
 ### Pascal's Triangle Mapping
 
